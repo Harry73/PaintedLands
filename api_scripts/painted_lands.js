@@ -45,6 +45,28 @@ var PaintedLands = PaintedLands || (function () {
 
 
     // ################################################################################################################
+    // Functional
+
+
+    // Basic python-like string formatting
+    String.prototype.format = function () {
+        let a = this;
+        for (let i = 0; i < arguments.length; i++) {
+            a = a.replace('%s', arguments[i]);
+        }
+        return a;
+    };
+
+
+    function chat(sender, message, handler) {
+        assert_not_null(sender, 'chat() sender');
+        assert_not_null(message, 'chat() message');
+
+        sendChat(sender, message, handler);
+    }
+
+
+    // ################################################################################################################
     // Logging
 
 
@@ -85,33 +107,10 @@ var PaintedLands = PaintedLands || (function () {
 
         static error(string) {
             this._log(LogLevel.ERROR, string);
-            sendChat('API', string);
+            chat(NAMESPACE, string);
         }
     }
     LOG.level = LogLevel.INFO;
-
-
-    // ################################################################################################################
-    // Functional
-
-
-    // Basic python-like string formatting
-    String.prototype.format = function () {
-        let a = this;
-        for (let i = 0; i < arguments.length; i++) {
-            a = a.replace('%s', arguments[i]);
-        }
-        return a;
-    };
-
-
-    function chat(sender, message, handler) {
-        assert_not_null(sender, 'raw_chat() sender');
-        assert_not_null(message, 'raw_chat() message');
-
-        sendChat(sender, message, handler);
-    }
-
 
 
     // ################################################################################################################
@@ -122,8 +121,7 @@ var PaintedLands = PaintedLands || (function () {
         let pieces = msg.content.split(' ');
         let text = pieces.slice(2).join(' ');
 
-        let player = '';
-        let action = '';
+        let player, action;
         if (text.includes('|')) {
             pieces = text.split('|');
             player = pieces[0];
@@ -186,7 +184,7 @@ var PaintedLands = PaintedLands || (function () {
         // Regular API call
         const pieces = msg.content.split(' ');
         if (pieces.length < 2) {
-            raw_chat(NAMESPACE, 'Missing PaintedLands subcommand');
+            chat(NAMESPACE, 'Missing PaintedLands subcommand');
             return;
         }
 
