@@ -1,24 +1,21 @@
 var PaintedLands = PaintedLands || (function () {
     'use strict';
 
-
     // ################################################################################################################
     // Constants
-
+    //
 
     const NAMESPACE = 'PaintedLands';
 
-
     // ################################################################################################################
     // State
+    //
 
-
-    let SAVED_ACTIONS = {};
-
+    let SAVED_ACTIONS = [];
 
     // ################################################################################################################
     // Assertions
-
+    //
 
     function assert(condition, message, ...rest) {
         if (condition === undefined || condition === null) {
@@ -33,7 +30,6 @@ var PaintedLands = PaintedLands || (function () {
         }
     }
 
-
     function assert_not_null(parameter, message) {
         if (message === undefined || message === null) {
             throw 'assert_not_null() missing message';
@@ -43,10 +39,9 @@ var PaintedLands = PaintedLands || (function () {
         assert(parameter !== null, 'AssertionError: ' + message);
     }
 
-
     // ################################################################################################################
     // Functional
-
+    //
 
     // Basic python-like string formatting
     String.prototype.format = function () {
@@ -57,7 +52,14 @@ var PaintedLands = PaintedLands || (function () {
         return a;
     };
 
+    // Always specifying a radix is safest, and we always want radix 10.
+    function parse_int(string) {
+        assert_not_null(string, 'parse_int() string');
 
+        return parseInt(string, 10);
+    }
+
+    // Wrapper around sending chat messages with null checks
     function chat(sender, message, handler) {
         assert_not_null(sender, 'chat() sender');
         assert_not_null(message, 'chat() message');
@@ -65,10 +67,10 @@ var PaintedLands = PaintedLands || (function () {
         sendChat(sender, message, handler);
     }
 
-
     // ################################################################################################################
-    // Logging
-
+    // Logging utility
+    //   For those more familiar with "LOG.<level>(message)" style logging.
+    //
 
     const LogLevel = {
         TRACE: 0,
@@ -77,7 +79,6 @@ var PaintedLands = PaintedLands || (function () {
         WARN: 3,
         ERROR: 4,
     };
-
 
     class LOG {
         static _log(log_level, string) {
@@ -112,69 +113,97 @@ var PaintedLands = PaintedLands || (function () {
     }
     LOG.level = LogLevel.INFO;
 
-
     // ################################################################################################################
     // Command handling
-
+    //
 
     function save_combat_action(msg) {
         let pieces = msg.content.split(' ');
         let text = pieces.slice(2).join(' ');
 
-        let player, action;
-        if (text.includes('|')) {
-            pieces = text.split('|');
-            player = pieces[0];
+        let entity, poise, action;
+        pieces = text.split('|');
+        if (pieces.length === 2) {
+            entity = msg.who;
+            poise = pieces[0];
             action = pieces[1];
+        } else if (pieces.length === 3) {
+            entity = pieces[0];
+            poise = pieces[1];
+            action = pieces[2];
         } else {
-            player = msg.who;
-            action = text;
+            chat(NAMESPACE, 'Unexpected number of arguments %s for "!pl combat" command'.format(pieces.length));
+            return;
         }
 
-        const button_section = " {{button=<a href='!pl act %s|%s'>Show Action</a>}}".format(player, action);
-        const response = '&{template:PaintedLands} {{name=%s Readies an Action}} %s'.format(player, button_section);
-        LOG.info('Save action: ' + response);
-        SAVED_ACTIONS[player] = action;
-        chat(player, response);
-    }
+        if (Number.isNaN(parse_int(poise))) {
+            chat(NAMESPACE, 'Non-numeric poise "%s"'.format(poise));
+            return;
+        }
+        poise = parse_int(poise);
 
+        const button_section = " {{button=<a href='!pl act %s|%s|%s'>Show Action</a>}}".format(entity, poise, action);
+        const response = '&{template:PaintedLands} {{name=%s is Ready}} {{poise=%s}} %s'.format(
+            entity, poise, button_section);
+        LOG.info('Save action: ' + response);
+        SAVED_ACTIONS.push({
+            'entity': entity,
+            'poise': poise,
+            'action': action,
+        });
+        chat(entity, response);
+    }
 
     function show_action(msg) {
         let pieces = msg.content.split(' ');
         pieces = pieces.slice(2).join(' ');
         pieces = pieces.split('|');
-        const player = pieces[0];
-        const action = pieces[1];
+        const entity = pieces[0];
+        const poise = pieces[1];
+        const action = pieces[2];
 
-        LOG.info('%s perform action: %s'.format(player, action));
-        chat(player, action);
-    }
+        let response = '<tr>';
+        response += '<td>%s</td>'.format(entity);
+        response += '<td>%s</td>'.format(poise);
+        response += '<td>%s</td>'.format(action);
+        response += '</tr>';
+        response = '&{template:PaintedLands} {{name=Action}} {{actions=%s}}'.format(response);
 
-
-    function execute_combat() {
-        const players = Object.keys(SAVED_ACTIONS);
-        let response = '\n';
-        for (let i = 0; i < players.length; i++) {
-            const player = players[i];
-            const action = SAVED_ACTIONS[player];
-            response += '%s: %s\n'.format(player, action);
-        }
-
-        SAVED_ACTIONS = {};
+        LOG.info('Show action: ' + response);
         chat(NAMESPACE, response);
     }
 
+    function execute_combat() {
+        // Order actions by poise - higher poise goes first
+        SAVED_ACTIONS.sort(function(a, b) {
+            return b.poise - a.poise;
+        });
+
+        let response = '';
+        for (let i = 0; i < SAVED_ACTIONS.length; i++) {
+            const saved_action = SAVED_ACTIONS[i];
+            response += '<tr>';
+            response += '<td>%s</td>'.format(saved_action.entity);
+            response += '<td>%s</td>'.format(saved_action.poise);
+            response += '<td>%s</td>'.format(saved_action.action);
+            response += '</tr>';
+        }
+        response = '&{template:PaintedLands} {{name=Combat Round}} {{actions=%s}}'.format(response);
+
+        LOG.info('Combat round' + response);
+        SAVED_ACTIONS = [];
+        chat(NAMESPACE, response);
+    }
 
     // ################################################################################################################
-    // Basic setup and message handling
-
+    // Message handling
+    //
 
     const subcommands = {
         'combat': save_combat_action,
         'act': show_action,
         'execute': execute_combat,
     };
-
 
     function handle_input(msg) {
         if (!msg.content.startsWith('!')) {
@@ -212,12 +241,14 @@ var PaintedLands = PaintedLands || (function () {
         }
     }
 
+    // ################################################################################################################
+    // API setup
+    //
 
     const register_event_handlers = function () {
         on('chat:message', handle_input);
         LOG.info('PaintedLands API ready');
     };
-
 
     return {
         register_event_handlers,
