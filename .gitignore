@@ -2,10 +2,7 @@ __pycache__/
 .pyc
 .idea/
 data/
-html/generated/
+html/
+rulebook/
 *.pem
-build/
-website.spec
-dist/
 todo.md
-token.txt
