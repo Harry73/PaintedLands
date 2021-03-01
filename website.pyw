@@ -103,7 +103,7 @@ class Application(tk.Frame):
 
 def main():
     base = tk.Tk()
-    base.title('Barbs Rulebook Manager')
+    base.title('PaintedLands Rulebook Manager')
     base.geometry('%sx%s' % (WIDTH, HEIGHT))
     base.configure(bg='black')
 
