@@ -10,7 +10,7 @@ from src.common import count_leading_characters, make_dir, paragraph, SECTION_HE
 
 CURRENT_PATH = os.getcwd()
 DATA_PATH = os.path.join(CURRENT_PATH, 'data')
-DATA_DOCX = os.path.join(DATA_PATH, 'data.docx')
+DATA_DOCX = os.path.join(DATA_PATH, 'The Painted Lands_ Rulebook.docx')
 DATA_TXT = os.path.join(DATA_PATH, 'data.txt')
 RULEBOOK_PATH = os.path.join(CURRENT_PATH, 'rulebook')
 
@@ -206,6 +206,8 @@ OUTLINE['Skills']['Magic Skills']['Earthcraft'] = None
 OUTLINE['Longblades Moveset'] = _process_moveset
 OUTLINE['Axes Moveset'] = _process_moveset
 OUTLINE['Blunt Weapons Moveset'] = _process_moveset
+OUTLINE['Polearms Moveset'] = _process_moveset
+OUTLINE['Ranged Weapons Moveset'] = _process_moveset
 
 
 def parse_data(log):

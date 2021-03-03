@@ -1,0 +1,17 @@
+[
+    {
+        "order": "1",
+        "name": "Beginner Shot",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A basic attack that anyone who picks up a bow could execute. Not to be used by anyone with decent experience with ranged weapons."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -3 to hit",
+            "  * Damage: 1d4"
+        ]
+    }
+]

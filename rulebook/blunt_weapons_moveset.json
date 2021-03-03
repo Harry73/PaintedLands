@@ -1,0 +1,748 @@
+[
+    {
+        "order": "1",
+        "name": "Rookie Smite",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A basic attack that anyone who picks up a blunt weapon could execute. Not to be used by anyone with decent experience with blunt weapons."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -3 to hit",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "2",
+        "name": "Standard Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A normal attack on center mass. Your basic damaging move to use at low poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "3",
+        "name": "Quick Smite",
+        "poise_requirement": "None",
+        "poise_cost": "+20",
+        "description": [
+            "A fast, balanced attack. A standard way to gain poise and deal damage at the same time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "4",
+        "name": "Heavy Smite",
+        "poise_requirement": "70",
+        "poise_cost": "-20",
+        "description": [
+            "A powerful attack. A standard heavy attack to use at high poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6"
+        ]
+    },
+    {
+        "order": "5",
+        "name": "Deft Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "A medium powered but fast attack. An alternative to Standard Smite that costs less poise but doesn't have accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "6",
+        "name": "Heft Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack at a weak point. An alternative to Standard Smite that sacrifices accuracy for critical strike chance."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "7",
+        "name": "Precision Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An especially accurate attack. At a little higher poise cost, this move buys some additional accuracy over Standard Smite."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +2 to hit",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "8",
+        "name": "Guard",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "You focus on defense. An early option for tank characters that doesn't require a shield."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* The next attack on you before your next turn deals half damage"
+        ]
+    },
+    {
+        "order": "9",
+        "name": "A Knight's Focus",
+        "poise_requirement": "None",
+        "poise_cost": "+30",
+        "description": [
+            "You concentrate and work to gain momentum. The highest poise generation move in the moveset."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* None"
+        ]
+    },
+    {
+        "order": "10",
+        "name": "Gigabreak",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "A very powerful attack. Your standard move to use at very high poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "11",
+        "name": "Stalwart Smite",
+        "poise_requirement": "50",
+        "poise_cost": "-10",
+        "description": [
+            "An attack combined with the defense of a shield. A very efficient way to deal damage and keep your defenses up."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* You have +2 AC until the end of the next round"
+        ]
+    },
+    {
+        "order": "12",
+        "name": "Retreating Smite",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while pulling back. An excellent option to maneuver backwards while keeping your guard up."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* You maneuver 1 or 2 lines backward",
+            "* Until the end of this round, you have +1 AC"
+        ]
+    },
+    {
+        "order": "13",
+        "name": "Advancing Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while marching forward. A respectable option for forward movement."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "* You maneuver 1 line forward"
+        ]
+    },
+    {
+        "order": "14",
+        "name": "Trained Warrior",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You invoke previous training. A low cost buff to both offense and defense."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You have +1 to hit and +1 AC until the end of the next round"
+        ]
+    },
+    {
+        "order": "15",
+        "name": "Battlemaster",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You are a master at battle. A high cost buff to both offense and defense"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You have +2 to hit and +2 AC until the end of the next round"
+        ]
+    },
+    {
+        "order": "16",
+        "name": "We Fight Together",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "You and an ally work together to gain momentum. A powerful option to grant an ally poise while gaining some poise yourself."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Target ally in the same line as you gains +10 Poise"
+        ]
+    },
+    {
+        "order": "17",
+        "name": "Get Behind Me",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You bodyblock for a teammate. A strong way to protect an ally."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Target ally in the same line as you may maneuver 1 line forward or backward",
+            "* Until the end of the next round, attacks against the same target ally are redirected to you"
+        ]
+    },
+    {
+        "order": "18",
+        "name": "Leading Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that creates an opportunity for another. A powerful support attack, but make sure that the character acting after you is an ally."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* The character that acts next has +1 to hit and +1D damage"
+        ]
+    },
+    {
+        "order": "19",
+        "name": "Scramble",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You quickly reposition along with an ally. A strong way to move from one end of the battlefield to another while helping out an ally."
+        ],
+        "additional_requirements": [
+            "* You are in either the frontline or backline"
+        ],
+        "effects": [
+            "* If you are in the frontline, you swap positions with an ally in the backline",
+            "  * Alternatively, if you are in the backline, you swap positions with an ally in the frontline"
+        ]
+    },
+    {
+        "order": "20",
+        "name": "Barrage",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "Repeated attacks against a single target. An efficient damage dealing option as long as you don't switch targets"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * This attack has +1d6 damage if this move was used during your last turn against the same target"
+        ]
+    },
+    {
+        "order": "21",
+        "name": "Anklebreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that breaks bones in the legs. A powerful option if you anticipate enemy repositioning moves."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * The target may not maneuver this round"
+        ]
+    },
+    {
+        "order": "22",
+        "name": "Dual Tactics",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You and a teammate work together. A buff that effectively grants accuracy for 3 moves: one for you and 2 for an ally. With some target focusing, this accuracy bonus is improved."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You an a target ally in the same line or in an adjacent line gain +1 to hit until the end of the next round",
+            "  * This bonus is increased to +2 to hit when one of you attacks a target damaged by the other in the same round"
+        ]
+    },
+    {
+        "order": "23",
+        "name": "Burst Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that causes a localized burst of damage. A somewhat delayed option for AOE damage that the enemy could play around if they predict it."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * At the end of the round, enemies in the same line as the target take 2d6 damage"
+        ]
+    },
+    {
+        "order": "24",
+        "name": "Stonesmasher",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that shatters boulders. To be used when enemies are making use of large rocks as cover."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores cover from large rocks and destroys them",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "25",
+        "name": "Cannonball Smite",
+        "poise_requirement": "50",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that invokes the power of the ocean. A powerful AOE attack when fighting in waterlogged biomes like swamps or open sea."
+        ],
+        "additional_requirements": [
+            "* You are in a water biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * If this attack is used against a target in the midline and successfully deals damage to them, it hits all other enemies without checking against their AC"
+        ]
+    },
+    {
+        "order": "26",
+        "name": "Spelunking Smite",
+        "poise_requirement": "50",
+        "poise_cost": "-20",
+        "description": [
+            "An attack invoking the power of the caverns. A strong option for forced movement while delving into caves."
+        ],
+        "additional_requirements": [
+            "* You are in a cave biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6",
+            "  * The target is pushed 1 line backward.",
+            "  * If possible, a target behind the initial target is pushed 1 line backward also"
+        ]
+    },
+    {
+        "order": "27",
+        "name": "Penetrating Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that crushes defenses. A useful attack if enemies are using many defensive buffs."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores the target's temporary AC bonuses",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "28",
+        "name": "Adamantium Armor",
+        "poise_requirement": "60",
+        "poise_cost": "-10",
+        "description": [
+            "Your armor covers your weak points well. A strong defensive option against axe and shortblade users to blunt their critical strikes."
+        ],
+        "additional_requirements": [
+            "* You are wearing light or heavy armor"
+        ],
+        "effects": [
+            "* Until the end of the next round, you ignore the effects of critical strikes against you"
+        ]
+    },
+    {
+        "order": "29",
+        "name": "Comeback Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against fast enemies. A decent poise damaging move that excels when your turn is low in poise order."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * The target loses 5 poise",
+            "    * If the target has already acted this round, they lose 10 poise instead"
+        ]
+    },
+    {
+        "order": "30",
+        "name": "Vengeant Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack powered by revenge. A powerful damage option for those expecting incoming attacks."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * If this attack is used against a target that attacked you this round, it deals +2d6 damage.",
+            "    * If the target scored a critical strike when they attacked you, this attack deals +3d6 damage instead"
+        ]
+    },
+    {
+        "order": "31",
+        "name": "Sorcerous Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack powered by ambient mana. A solid damage dealing option when an ally is casting spells alongside you."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack deals +2d6 damage if an ally in the same line cast a spell this round."
+        ]
+    },
+    {
+        "order": "32",
+        "name": "Antimagic Bulwark",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You are good at using your shield to deflect magic. A powerful defensive option against spellcasters."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until the end of the next round, magic attacks against you deal half damage"
+        ]
+    },
+    {
+        "order": "33",
+        "name": "Stunning Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack aimed at the head. A basic option to stun enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * Roll a d6:",
+            "    * On 6 - Target is stunned"
+        ]
+    },
+    {
+        "order": "34",
+        "name": "One For All",
+        "poise_requirement": "None",
+        "poise_cost": "-25",
+        "description": [
+            "Your battlecry inspires everyone. The only move that affects your entire team's poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* All other allies gain +5 poise"
+        ]
+    },
+    {
+        "order": "35",
+        "name": "Stalwart",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "You stand your ground. A defensive option that is useful against enemies using forced movement attacks often."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until the end of the next round, you cannot be forced to maneuver by an enemy's attack"
+        ]
+    },
+    {
+        "order": "36",
+        "name": "Goad",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You provoke an enemy to approach you. A useful way to pull enemies hiding in the midline and backline forward."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Target enemy maneuvers 1 line forward"
+        ]
+    },
+    {
+        "order": "37",
+        "name": "Bowbreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against archers. A powerful counter to ranged weapon wielding enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack has +1 to hit and +2d6 damage if the target is wielding a ranged weapon"
+        ]
+    },
+    {
+        "order": "38",
+        "name": "Shoving Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack that forces an enemy to retreat. A useful way to push frontline enemies towards the rear."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * The target is pushed 1 line backward"
+        ]
+    },
+    {
+        "order": "39",
+        "name": "Dazzling Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that disorients an enemy. A basic attack to hurt an enemy's accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Target has -1 to hit until the end of the round"
+        ]
+    },
+    {
+        "order": "40",
+        "name": "Broken But Not Beaten",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack by a wounded animal. A powerful comeback attack when your health is low."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * Target loses 5 poise",
+            "  * If you have 10 health or less, this attack deals +2d6 damage and the target loses an additional 5 poise. The target is also inflicted with -1D until the end of the next round."
+        ]
+    },
+    {
+        "order": "41",
+        "name": "Comet Crush",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "Your weapon is like a falling comet. An alternative to Gigabreak that sacrifices damage for a chance to stun"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Roll a d6:",
+            "    * On 5 or 6 - Target is stunned"
+        ]
+    },
+    {
+        "order": "42",
+        "name": "Unbreakable",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You defend while pushing for momentum. A poise generation option that has great potential if you have confidence in your defenses."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You have +1 AC until the beginning of your next turn",
+            "* Until the beginning of your next turn, when an attack against you fails to beat your AC, you gain +5 poise"
+        ]
+    },
+    {
+        "order": "43",
+        "name": "Taunt",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You force enemies to focus on you. A powerful option to actively tank for your team."
+        ],
+        "additional_requirements": [
+            "* You are in the frontline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * Until the end of the next round, the target's attacks that are not directed at you cause them to take 2d6 damage and lose 10 poise"
+        ]
+    },
+    {
+        "order": "44",
+        "name": "Right Hand Man",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You support your strongest fighter. A great support move when paired with a good damage dealer like an axe or shortblade user."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * The next ally to attack the target gains one level of advantage on their attack; if their attack is a critical strike, you and that ally gain +20 poise"
+        ]
+    },
+    {
+        "order": "45",
+        "name": "Heavenly Smite",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from high ground. A powerful option that can force an enemy into a bad spot."
+        ],
+        "additional_requirements": [
+            "* You have a height advantage over your target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6",
+            "  * Target is pushed to the backline"
+        ]
+    },
+    {
+        "order": "46",
+        "name": "Avalanche",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that displaces loose snow. A great option to control an enemy team while fighting in a snowy region."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * If you are standing in snow, this attack inflicts -1 to hit to all enemies without checking against their AC"
+        ]
+    },
+    {
+        "order": "47",
+        "name": "Countersmite",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that breaks concentration. A useful way to prevent enemy spellcasters from acting if you can anticipate their moves."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Target fails to cast spells this round"
+        ]
+    },
+    {
+        "order": "48",
+        "name": "Regroup",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You call allies to you. A useful way to move multiple allies."
+        ],
+        "additional_requirements": [
+            "* You are in the midline"
+        ],
+        "effects": [
+            "* Target ally in the frontline maneuvers 1 line backward",
+            "* Target ally in the backline maneuvers 1 line forward"
+        ]
+    },
+    {
+        "order": "49",
+        "name": "Invocation Armor",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You invoke the true power of your armor. A way to temporarily improve your natural defenses from your gear"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until the end of the next round, defenses bonuses from your gear are doubled"
+        ]
+    },
+    {
+        "order": "50",
+        "name": "Warrior of Light",
+        "poise_requirement": "100",
+        "poise_cost": "-5",
+        "description": [
+            "You show why you were chosen by the gods. A powerful recovery option that can be used once per day"
+        ],
+        "additional_requirements": [
+            "* You have rested at least once since you last executed this move"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6",
+            "  * Critical Strike: 2x Damage on 12",
+            "* The next attack that hits you is fully negated; until that occurs, you recover 10% of your maximum health at the end of each of your turns"
+        ]
+    }
+]

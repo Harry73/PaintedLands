@@ -1,0 +1,795 @@
+[
+    {
+        "order": "1",
+        "name": "Squire's Slash",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A basic attack that anyone who picks up a sword could execute. Not to be used by anyone with decent experience with longblades."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -3 to hit",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "2",
+        "name": "Straight Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A standard attack on center mass for the beginner's use. Your baseline damaging move that you can almost always execute."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "3",
+        "name": "Quick Slash",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "A light attack to gain momentum. Your baseline poise generating move that you can almost always execute."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "4",
+        "name": "Overhead Slash",
+        "poise_requirement": "70",
+        "poise_cost": "-20",
+        "description": [
+            "A powerful downwards attack. A strong, baseline move to use at high poise, with a chance to score a Critical Strike."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "5",
+        "name": "Flicker Slash",
+        "poise_requirement": "None",
+        "poise_cost": "+5",
+        "description": [
+            "A quick flick of the wrist for a fast and accurate attack. Useful against enemies with high AC when you only need a little bit more poise to reach another move's requirements. Not a good choice if you need to recover a lot of poise quickly."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "6",
+        "name": "Precision Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A fast and precise attack. A more accurate alternative to Straight Slash with a slightly higher poise cost. Useful against enemies with high AC, or when your accuracy is negatively affected."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "7",
+        "name": "Reckless Slash",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "A powerful, wild attack. Has greater usability than Overhead Swing, but lacks its Critical Strike chance and pays for its lower poise cost with poor accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -1 to hit",
+            "  * Damage: 3d6"
+        ]
+    },
+    {
+        "order": "8",
+        "name": "En Garde",
+        "poise_requirement": "None",
+        "poise_cost": "+25",
+        "description": [
+            "You prepare for combat. The highest poise generation in the moveset, forcing you to do nothing else for the turn."
+        ],
+        "additional_requirements": [],
+        "effects": []
+    },
+    {
+        "order": "9",
+        "name": "Strongarm's Slash",
+        "poise_requirement": "80",
+        "poise_cost": "-25",
+        "description": [
+            "A heavy attack. Only to be executed at high poise, and performs predictably well every time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6"
+        ]
+    },
+    {
+        "order": "10",
+        "name": "Swallow Reversal",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "A legendary overhead attack, able to strike down a swallow mid-flight, invented by the world's second greatest warrior. Only to be used at very high poise, its great cost comes with high damage and a chance to kill the target in a single attack."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "11",
+        "name": "Twin Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "Attacks with both swords. A basic attack if you are dual wielding longblades, and a convincing reason to do so."
+        ],
+        "additional_requirements": [
+            "* You are dual wielding"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "12",
+        "name": "Sentinel's Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack from behind the safety of a shield. A basic attack if you are wielding a shield, compounding on its defensive benefits"
+        ],
+        "additional_requirements": [
+            "* Must have a shield equipped"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* Gain +1 AC until the beginning of your next turn"
+        ]
+    },
+    {
+        "order": "13",
+        "name": "Advancing Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack while you push forward. A good way to maneuver forward while still dealing some damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver 1 line forward",
+            "* Attack",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "14",
+        "name": "Retreating Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack while you fall back. A good way to maneuver backward while still dealing some damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver 1 line backward",
+            "* Attack",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "15",
+        "name": "Bounding Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while leap forward. Decent damage and high mobility at a relatively low cost."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver 2 lines forward",
+            "* Attack",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "16",
+        "name": "Backpedal Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while you rapidly retreat. Decent damage and high mobility at a relatively low cost."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver 2 lines backward",
+            "* Attack",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "17",
+        "name": "Knight's Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A strong attack from horseback. A stronger version of Standard Slash owing to accuracy granted by the speed of your mount."
+        ],
+        "additional_requirements": [
+            "* Must be mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "18",
+        "name": "Driveby Slash",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "A light attack from horseback. A stronger version of Quick Slash owing to accuracy granted by the speed of your mount."
+        ],
+        "additional_requirements": [
+            "* Must be mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 1d6"
+        ]
+    },
+    {
+        "order": "19",
+        "name": "Ambush Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from a hiding place. A more efficient version of Overhead Slash granted by seeking cover beforehand."
+        ],
+        "additional_requirements": [
+            "* Must be hidden behind cover"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - 2x Damage"
+        ]
+    },
+    {
+        "order": "20",
+        "name": "A Thousand Cuts",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A repeatable attack that gains power over time. A powerful and efficient option if you have enough poise to let it build up to full strength"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack gains +1 to hit and +1d6 damage, up to a maximum of +2 to hit and +2d6 damage, for every time it has been used in succession"
+        ]
+    },
+    {
+        "order": "21",
+        "name": "Captain's Slash",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An inspiring attack. A strong option to support an ally if your own poise is high."
+        ],
+        "additional_requirements": [
+            "* You have at least 1 adjacent ally to target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* Target adjacent ally gains +1D damage and +1 to hit until the end of the next round"
+        ]
+    },
+    {
+        "order": "22",
+        "name": "Swords On Standby",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "You take a moment's reprieve with a close ally. A weak poise generating move, but with the side effect of granting some poise to an ally."
+        ],
+        "additional_requirements": [
+            "* You have at least 1 adjacent ally to target"
+        ],
+        "effects": [
+            "* Target adjacent ally gains +5 poise"
+        ]
+    },
+    {
+        "order": "23",
+        "name": "Bodyguard",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A defensive move to protect a friend. A reliable if brief way to tank for a key member of your party.1"
+        ],
+        "additional_requirements": [
+            "* You have at least 1 ally in the same line or in the line behind you to target"
+        ],
+        "effects": [
+            "* The next attack that targets your targeted ally is redirected to target you instead. This effect ends at the end of the next round."
+        ]
+    },
+    {
+        "order": "24",
+        "name": "Razing Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on enemies hiding in brush. A strong option against enemies who are hiding, if the circumstances allow for it"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores cover provided by tall grass or brushes, and destroys Special Positions associated with these",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "25",
+        "name": "Armorbreaker",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against a heavily armored target. A powerful choice when facing an enemy in heavy armor; it will help deal with their damage reduction, but won't help you hit them."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack deals an additional +2d6 damage if the target is wearing heavy armor"
+        ]
+    },
+    {
+        "order": "26",
+        "name": "Anklebiter",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to throw an enemy off balance. A basic poise damaging move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * The target loses 10 poise"
+        ]
+    },
+    {
+        "order": "27",
+        "name": "Wide Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on many enemies. An attack that hits the entire enemy frontline, providing strong AOE damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * This attack hits all enemies in the frontline"
+        ]
+    },
+    {
+        "order": "28",
+        "name": "Lunging Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on a distant enemy. A solid choice to use against enemies at a distance, whether you're the one behind the frontline or they are."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack gains 1 level of advantage against a target who is not adjacent to you",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "29",
+        "name": "Stunning Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-30",
+        "description": [
+            "An attack with the flat of your blade. A basic option to stun an enemy, albeit at high cost."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Roll a d6",
+            "    * On 6 - Target is stunned"
+        ]
+    },
+    {
+        "order": "30",
+        "name": "Flash of Steel",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to start the round. A powerful attack that is superior to Overhead Slash if you are the first character to act in the round."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage",
+            "  * If this is the first turn of the round, this attack has +1 to hit and +2d6 damage"
+        ]
+    },
+    {
+        "order": "31",
+        "name": "Long Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on two enemies in a line. An attack that can hit two enemies who are neatly lined up."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * This attack hits an additional target in the line behind your initial target"
+        ]
+    },
+    {
+        "order": "32",
+        "name": "Axebreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that leverages the sword's graceful superiority over the axe. A powerful option against axe users if you have it practiced."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack has +1 to hit and +2d6 damage if the target wields an axe"
+        ]
+    },
+    {
+        "order": "33",
+        "name": "Blade of the Peaks",
+        "poise_requirement": "50",
+        "poise_cost": "-10",
+        "description": [
+            "An attack invoking the majestic power of the mountains. A solid basic attack to use when you are exploring in a mountain region."
+        ],
+        "additional_requirements": [
+            "* You are in a mountain biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage",
+            "    * On Attack Roll of 11 - Deal +1d6 damage"
+        ]
+    },
+    {
+        "order": "34",
+        "name": "Plainsrider's Blade",
+        "poise_requirement": "50",
+        "poise_cost": "-10",
+        "description": [
+            "An attack invoking the peaceful grace of the plains. A solid basic attack to use when you are exploring in a plains region."
+        ],
+        "additional_requirements": [
+            "* You are in a plains biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +2 to hit",
+            "  * Damage: 2d6"
+        ]
+    },
+    {
+        "order": "35",
+        "name": "Pursuit Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on a fleeing enemy, using a horse's superior speed. Use if you predict the target will attempt to maneuver backward"
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack deals an additional +2d6 damage and the target loses 15 poise if they maneuvered backward this round"
+        ]
+    },
+    {
+        "order": "36",
+        "name": "Whirlwind Slash",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "Rapid attacks with both swords. A stronger option for dual wielding longblade users."
+        ],
+        "additional_requirements": [
+            "* You are dual wielding",
+            "* You are in the frontline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "37",
+        "name": "Superior Shield Arm",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You protect someone other than yourself with your shield. An option to protect an ally if you are confident in your AC without your shield."
+        ],
+        "additional_requirements": [
+            "* You are wielding a shield",
+            "* You have at least 1 adjacent ally to target"
+        ],
+        "effects": [
+            "* Target adjacent ally gains +1 AC until the end of the next round",
+            "* You have -1 AC until the end of the next round1"
+        ]
+    },
+    {
+        "order": "38",
+        "name": "Skyward Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from on high. An efficient damage dealing move if you have the high ground."
+        ],
+        "additional_requirements": [
+            "* You have a height advantage on your target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6"
+        ]
+    },
+    {
+        "order": "39",
+        "name": "Wave Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that splashes water and muck into your enemies' eyes. A stronger version of Anklebiter when in waterlogged Special Positions."
+        ],
+        "additional_requirements": [
+            "* You are standing in water"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * The target loses 15 poise"
+        ]
+    },
+    {
+        "order": "40",
+        "name": "Assured Vengeance",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "An attack to avenge the fallen. An extremely powerful and efficient attack to use in a worst case scenario."
+        ],
+        "additional_requirements": [
+            "* An ally died this round"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "41",
+        "name": "Second Wind",
+        "poise_requirement": "None",
+        "poise_cost": "+20",
+        "description": [
+            "You quickly catch your breath. A strong follow up to a move that repositions you."
+        ],
+        "additional_requirements": [
+            "* Since the beginning of your last turn, you or an ally used a move that caused you to change position"
+        ],
+        "effects": []
+    },
+    {
+        "order": "42",
+        "name": "Call to Arms",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to rally the troops. A move that allows an ally to maneuver."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* An adjacent ally maneuvers one line forward or backward"
+        ]
+    },
+    {
+        "order": "43",
+        "name": "Uppercut",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack at the enemy's face. With luck, this move is a superior version of Anklebiter or Stunning Slash."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Target is stunned",
+            "    * On Attack Roll of 11 - Target loses 10 poise"
+        ]
+    },
+    {
+        "order": "44",
+        "name": "Riposte",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A fierce counterattack. A powerful move if you are confident in your AC, or after stacking negative accuracy modifiers on an enemy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack deals an additional +2d6 damage if your target missed an attack on you this round"
+        ]
+    },
+    {
+        "order": "45",
+        "name": "Biding Slash",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack by a wounded beast. If you think you might take heavy damage, this move is a good way to get some payback."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack deals an additional +2d6 damage if you lost at least 6 health this round"
+        ]
+    },
+    {
+        "order": "46",
+        "name": "Clangor",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You bash your sword against your shield and make raucous noise. The moveset's only option for poise damage to more than one enemy."
+        ],
+        "additional_requirements": [
+            "* You are wielding a shield"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack hits all enemies in the frontline",
+            "  * The targets lose 5 poise"
+        ]
+    },
+    {
+        "order": "47",
+        "name": "Skewer and Slash",
+        "poise_requirement": "70",
+        "poise_cost": "-30",
+        "description": [
+            "An attack to injure deeply. A strong combination of damage and poise damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d6",
+            "  * The target loses 15 poise"
+        ]
+    },
+    {
+        "order": "48",
+        "name": "Invocation Blade",
+        "poise_requirement": "60",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that amplifies your boons. An attack with a lot of potential if your allies can support you."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d6",
+            "  * This attack benefits from doubled effectiveness of any temporary to hit bonuses or damage bonuses that allies have granted you"
+        ]
+    },
+    {
+        "order": "49",
+        "name": "Skullduggery",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A gambler's attack. Use this if you're feeling lucky."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d6",
+            "* Roll a d6:",
+            "  * On a 1 - You lose 30 poise",
+            "  * On a 2, 3, or 4 - You lose 15 poise",
+            "  * On a 5 - You gain 10 poise",
+            "  * On a 6 - You gain 25 poise"
+        ]
+    },
+    {
+        "order": "50",
+        "name": "Eclipse",
+        "poise_requirement": "100",
+        "poise_cost": "-5",
+        "description": [
+            "An attack by a master swordsman, laying multiple strikes together. Use it whenever you can to set up for a powerful next turn."
+        ],
+        "additional_requirements": [
+            "* You have rested at least once since you last executed this move"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d6",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage",
+            "* You gain an additional action during your next turn"
+        ]
+    }
+]

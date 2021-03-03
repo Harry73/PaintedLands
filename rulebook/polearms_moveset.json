@@ -1,0 +1,837 @@
+[
+    {
+        "order": "1",
+        "name": "Conscript's Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A basic attack that anyone who picks up a spear could execute. Not to be used by anyone with decent experience with polearms."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -3 to hit",
+            "  * Damage: 1d8"
+        ]
+    },
+    {
+        "order": "2",
+        "name": "Straight Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A standard attack. Your basic option for dealing damage at low poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "3",
+        "name": "Quick Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "A fast attack. Your basic option to generate poise while dealing damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8"
+        ]
+    },
+    {
+        "order": "4",
+        "name": "Heavy Thrust",
+        "poise_requirement": "75",
+        "poise_cost": "-20",
+        "description": [
+            "A heavy attack. Your basic high poise damaging move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "5",
+        "name": "Pinning Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack aimed at the swordarm. A basic attack to impede the enemy's offense, offered early in the moveset."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Target's next attack has -1 to hit"
+        ]
+    },
+    {
+        "order": "6",
+        "name": "Perforating Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to drain speed. A basic poise damage move, offered early in the moveset."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Target loses 10 poise"
+        ]
+    },
+    {
+        "order": "7",
+        "name": "Weakening Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to drain power. An alternative to Pinning Strike that weakens the enemy's damage instead of their accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Target's next attack has -1D damage"
+        ]
+    },
+    {
+        "order": "8",
+        "name": "Bannerwave",
+        "poise_requirement": "None",
+        "poise_cost": "+25",
+        "description": [
+            "You hold up your banner and inspire yourself. Your strongest poise generation move available in the moveset."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* None"
+        ]
+    },
+    {
+        "order": "9",
+        "name": "Necrotic Thrust",
+        "poise_requirement": "70",
+        "poise_cost": "-30",
+        "description": [
+            "A powerful blow that desecrates the body. A more powerful poise damaging move than Perforating Thrust if you have greater poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Target loses 20 poise"
+        ]
+    },
+    {
+        "order": "10",
+        "name": "Disembowel",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "An attack that shreds an enemy's innards. A high poise attack with a chance to kill instantly."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 4d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "11",
+        "name": "Harrying Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You move backwards while warding off the enemy advance. It's rare that you'll get the full benefit from this move, but when you do, it can leave you in an optimal position for later turns."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d8",
+            "  * The target fails to maneuver forward this round",
+            "* You maneuver 1 line backward"
+        ]
+    },
+    {
+        "order": "12",
+        "name": "Fleeting Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You dash backwards while holding off enemies. A stronger version of Harrying Thrust for increased mobility and damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d8",
+            "  * The target fails to maneuver forward this round",
+            "* You maneuver 2 lines backward"
+        ]
+    },
+    {
+        "order": "13",
+        "name": "Reaching Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You move forward to attack. A basic forward mobility attack."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "* You maneuver 1 line forward"
+        ]
+    },
+    {
+        "order": "14",
+        "name": "Charging Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You charge forward. A strong forward mobility attack."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage",
+            "* You maneuver 2 lines forward"
+        ]
+    },
+    {
+        "order": "15",
+        "name": "Paladin's Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You attack from horseback. A basic low poise attack to use while mounted."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "16",
+        "name": "Cavalier's Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "You attack quickly from horseback. A basic poise generation attack to use while mounted."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "17",
+        "name": "Ride and Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You use the speed of your horse to attack while repositioning. A strong mobility option for mounted polearm users."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "* You maneuver 1 line forward or backward"
+        ]
+    },
+    {
+        "order": "18",
+        "name": "Give Chase",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You harry an enemy as they move. A strong option to chase an enemy retreating backward."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "* Until the end of the round, an enemy damaged by this move that maneuvers backward for any reason allows you to maneuver forward the same number of lines if you choose to do so"
+        ]
+    },
+    {
+        "order": "19",
+        "name": "Canter",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that evokes the fast and evasive moves of your mount. A more powerful version of Pinning Strike available to mounted polearm users."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * The target has -2 to hit for attacks directed at you until the end of the round"
+        ]
+    },
+    {
+        "order": "20",
+        "name": "Jousting Lance",
+        "poise_requirement": "75",
+        "poise_cost": "-20",
+        "description": [
+            "You charge forward for the kill with the great speed of your horse helping your power output. A strong high poise move available to mounted polearm users."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "21",
+        "name": "Valkyrie Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You attack from high up. A great way to reach for the backline if you can manage to gain high ground."
+        ],
+        "additional_requirements": [
+            "* You have a height advantage over your target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with two levels of advantage",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "22",
+        "name": "Entrenched Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack with easy access to the legs. A decent move to impede an enemy when you find yourself in low ground."
+        ],
+        "additional_requirements": [
+            "* Your target has a height advantage over you"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage",
+            "  * Damage: 1d8",
+            "  * Target's next attack has -1 to hit"
+        ]
+    },
+    {
+        "order": "23",
+        "name": "Piercing Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that pierces the first enemy to hit a second. A basic AOE attack that is improved by polearm's superior reach."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * This attack also hits a second target in the line behind the initial target",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "24",
+        "name": "Farstrike Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that reaches for an enemy in the back. A great option for dealing damage to an otherwise hard-to-reach enemy."
+        ],
+        "additional_requirements": [
+            "* You are in the frontline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "25",
+        "name": "Stunning Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-25",
+        "description": [
+            "An attack that can stun an unsuspecting foe. A basic stunning attack if you're lucky."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * Roll a d6:",
+            "    * On 6 - Target is stunned"
+        ]
+    },
+    {
+        "order": "26",
+        "name": "Headhunter Thrust",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack aimed at the fastest enemy. A strong way to deal with a high poise enemy if you have good timing."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * If the target has the highest poise amongst all combatants, this attack deals +2d8 damage."
+        ]
+    },
+    {
+        "order": "27",
+        "name": "Shredding Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that shreds at the foe's armor. A great way to deal with tanky enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * This attack deals +2d8 and inflicts -2 AC until the end of the next round if the target is wearing heavy armor"
+        ]
+    },
+    {
+        "order": "28",
+        "name": "Faltering Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that weakens defenses. A somewhat late offering to lower a target's AC."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Target has -1 AC until the end of the next round"
+        ]
+    },
+    {
+        "order": "29",
+        "name": "Javelin Toss",
+        "poise_requirement": "None",
+        "poise_cost": "-25",
+        "description": [
+            "An attack with a thrown spear. An AOE attack powered by the accuracy of the polearm"
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * This attack hits one target in each line",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "30",
+        "name": "Kingslayer",
+        "poise_requirement": "75",
+        "poise_cost": "-30",
+        "description": [
+            "A powerful attack aimed at their most protected unit. A strong move to use against backline enemies."
+        ],
+        "additional_requirements": [
+            "* You are in the frontline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
+            "  * Damage: 3d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "31",
+        "name": "Spear of the Desert",
+        "poise_requirement": "50",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that invokes the power of the desert. If you're in a desert biome, this attack can control an enemy's poise generation very well."
+        ],
+        "additional_requirements": [
+            "* You are in a desert biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Target cannot gain poise until the end of the next round"
+        ]
+    },
+    {
+        "order": "32",
+        "name": "Spear of the Frostguard",
+        "poise_requirement": "50",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that invokes the power of the tundra. A good way to control enemy movement if you're in a tundra biome"
+        ],
+        "additional_requirements": [
+            "* You are in a tundra biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Target cannot maneuver or be maneuvered until the end of the next round"
+        ]
+    },
+    {
+        "order": "33",
+        "name": "Swordbreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that shows the reach advantage of the lance over the sword. A good way to counter enemy longblade users."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * This attack has +1 to hit and +2d8 damage if the target wields a longblade"
+        ]
+    },
+    {
+        "order": "34",
+        "name": "Fishing Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You stab at the water's surface with incredible accuracy. A great way to defeat enemies who are hiding underwater."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * This attack ignores cover from hiding underwater",
+            "  * Damage: 2d8"
+        ]
+    },
+    {
+        "order": "35",
+        "name": "Spellbreaker",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that pierces through magic. A strong attack to deal with enemies who are buffed by mages."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * This attack deals +2d8 damage if the target is benefitting from a spell effect. Additionally, it causes one spell effect on the target to immediately end (if there are multiple, one is randomly chosen)"
+        ]
+    },
+    {
+        "order": "36",
+        "name": "Willbreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack that capitalizes on the gap in an enemy line made when one dies. A great follow up if your team manages to finish off a frontline enemy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * If an enemy in the frontline died this round, this attack gains +2d8 damage and also gains the following:",
+            "    * Critical Strike:",
+            "      * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "37",
+        "name": "Line of Pikes",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that punishes forward advances. If you anticipate that one or more enemies will maneuver forward, this move punishes their forward movement."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until the end of the round, you automatically attack any enemy that maneuvers forward, dealing 2d8 damage on a hit.",
+            "  * The damage from these attacks are increased by +2d8 if the maneuvering enemy is mounted"
+        ]
+    },
+    {
+        "order": "38",
+        "name": "Sweeping Attack",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to fish out hiding enemies. A great counter to enemies frequently hiding behind cover."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores cover",
+            "  * Damage: 1d8"
+        ]
+    },
+    {
+        "order": "39",
+        "name": "Grievous Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack effective against enemies attempting to recover. A unique anti-healing attack that can help prevent enemies from undoing your party's hard work."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 2d8",
+            "  * Target cannot benefit from healing until the end of the next round"
+        ]
+    },
+    {
+        "order": "40",
+        "name": "Bringer of Frailty",
+        "poise_requirement": "80",
+        "poise_cost": "-25",
+        "description": [
+            "An attack that exploits enemy weaknesses. A unique attack that has good base power and can extend the duration of your other effects on the target with some luck."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 3d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - The duration of negative effects on the target is extended by 1 round"
+        ]
+    },
+    {
+        "order": "41",
+        "name": "Sapping Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "+5",
+        "description": [
+            "An attack that drains momentum. An attack that generates poise and also damages the target's poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * Target loses 5 poise"
+        ]
+    },
+    {
+        "order": "42",
+        "name": "Cobra Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that exploits an enemy's strong momentum. This attack gets stronger against higher poise enemies. It does not mix well with your poise damaging moves."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * This attack has +1 to hit and +1d8 damage for every 25 poise the target has"
+        ]
+    },
+    {
+        "order": "43",
+        "name": "Jesting Thrust",
+        "poise_requirement": "50",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that requires some luck. A poise damaging move with some randomness involved. About half of the time it should be more efficient than other poise damaging moves you have."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Accuracy Modifier: -1 to hit",
+            "  * Damage: 1d8",
+            "  * Roll a d6:",
+            "    * The target loses poise equal to the rolled value times 5"
+        ]
+    },
+    {
+        "order": "44",
+        "name": "Disarming Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that exploits an enemy's superior position. This move can keep frontline enemies from gaining advantage for their attacks, or counter an enemy polearm user. Note that it is ineffective against ranged weapon users."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * Target's next attack has 1 level of disadvantage"
+        ]
+    },
+    {
+        "order": "45",
+        "name": "Askance Thrust",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that slips past shields. A counter to enemies meeting you with shields."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * This attack ignores AC granted by shields",
+            "  * Damage: 1d8",
+            "  * This attack has +2d8 damage if the target wields a shield"
+        ]
+    },
+    {
+        "order": "46",
+        "name": "Demoralizing Thrust",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against a support. A powerful counter to enemies who are mostly supporting other enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * If the target used a move that provides a benefit to another enemy this round, this attack deals an additional +2d8 damage"
+        ]
+    },
+    {
+        "order": "47",
+        "name": "Guardbreaker",
+        "poise_requirement": "60",
+        "poise_cost": "-20",
+        "description": [
+            "An attack strong against tanks. A great way to chip at the frontline."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * This attack has +1d8 damage and inflicts -1 AC and -1 to hit on the target if the target is in the frontline"
+        ]
+    },
+    {
+        "order": "48",
+        "name": "Exploiting Thrust",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that takes advantage of a stunned enemy. A great follow up to an ally landing a stun."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d8",
+            "  * If the target is stunned, this attack cannot miss and has +2d8 damage"
+        ]
+    },
+    {
+        "order": "49",
+        "name": "Lance of Longinus",
+        "poise_requirement": "80",
+        "poise_cost": "-30",
+        "description": [
+            "A mythical attack to bring gods to their knees. An attack with many effects to use at high poise, for the indecisive polearm user."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 1d8",
+            "  * Target loses 5 poise",
+            "  * Until the end of the next round, the target has -1 to hit, -1D damage, and -1 AC"
+        ]
+    },
+    {
+        "order": "50",
+        "name": "Gae Bolg Ionsai",
+        "poise_requirement": "100",
+        "poise_cost": "-5",
+        "description": [
+            "A legendary attack by a master of the spear. A powerful poise damaging move that can only be used once per day."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack is made with one level of advantage unless you are in a special position",
+            "  * Damage: 4d8",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage",
+            "  * Target loses poise equal to the damage roll of this move",
+            "  * Until the end of the round, all damage that the target takes causes them to lose an equal amount of poise"
+        ]
+    }
+]

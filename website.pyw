@@ -5,9 +5,10 @@ import traceback
 
 from threading import Thread
 
+from src.parsing.parser import parse_data
 from src.website.deployer import deploy
 from src.website.generator import generate_html
-from src.parsing.parser import parse_data
+from src.website.validator import validate
 
 
 WIDTH = 1000
@@ -38,7 +39,8 @@ class Application(tk.Frame):
 
         self.bind('<KeyPress>', self.keydown)
 
-        self.parse_button = self.button('Parse rulebook', self.on_press(parse_data), (40, 25))
+        self.parse_button = self.button('Parse', self.on_press(parse_data), (5, 5), box_size=15)
+        self.validate_button = self.button('Validate rulebook', self.on_press(validate), (40, 25))
         self.generate_button = self.button('Generate rulebook website HTML', self.on_press(generate_html), (280, 25))
         self.generate_button = self.button('View local', self.on_press(open_local), (520, 25))
         self.deploy_button = self.button('Update website', self.on_press(deploy), (760, 25))
@@ -68,11 +70,14 @@ class Application(tk.Frame):
         if key.char and ord(key.char) == 27:
             self.master.quit()
 
-    def button(self, text, command, position, **kwargs):
+    def button(self, text, command, position, box_size=None, **kwargs):
         button = tk.Button(self.master, text=text, command=command)
         button.configure(bg='gray', fg='white')
         button.pack()
-        button.place(bordermode=tk.OUTSIDE, width=200, height=30, x=position[0], y=position[1], **kwargs)
+        if box_size:
+            button.place(bordermode=tk.OUTSIDE, width=box_size, height=box_size, x=position[0], y=position[1], **kwargs)
+        else:
+            button.place(bordermode=tk.OUTSIDE, width=200, height=30, x=position[0], y=position[1], **kwargs)
         return button
 
     def on_press(self, method):

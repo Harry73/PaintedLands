@@ -1,0 +1,353 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+html, body {
+    background-color: #36393F;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.monospace {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+
+section {
+    display: block;
+}
+
+h1 {
+    font-size: 72px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 15px;
+    mix-blend-mode: exclusion;
+}
+
+h3 {
+    font-size: 36px;
+    padding-bottom: 15px;
+    mix-blend-mode: exclusion;
+}
+
+h4 {
+    /* Same as article text, but bold */
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    mix-blend-mode: exclusion;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.row-full{
+    width: 100vw;
+    position: relative;
+    margin: 20px 0 0 -50vw;
+    height: 2px;
+    left: 50%;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+#main {
+    margin-left: 20%;  /* Same as the width of the sidenav */
+}
+
+#pageContent {
+    padding-left: 10%;
+    padding-right: 10%;
+    border: none;
+}
+
+article {
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+article p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    mix-blend-mode: exclusion;
+}
+
+a:link {
+    color: #1CB0E9;
+}
+
+a:visited {
+    color: #A472E5;
+}
+
+a.green-link:link {
+    color: lightgreen;
+}
+
+a.green-link:visited {
+    color: darkgreen;
+}
+
+
+/* Image at the top */
+
+.img-container-l1 {
+    display: inline-block;
+    padding-left: 20%;  /* Same as the width of the sidenav */
+}
+
+.img-container-l2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    vertical-align: middle;
+}
+
+.blended {
+    mix-blend-mode: exclusion;
+}
+
+img {
+    width: 100%;
+}
+
+/* lists */
+
+ul {
+    padding-top: 5px;
+    mix-blend-mode: exclusion;
+}
+
+ul li {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+ul li ul li {
+    margin-left: 40px;
+}
+
+.padt {
+    padding-top: 5px;
+}
+
+.spaced {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* tables */
+
+.visible-table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    mix-blend-mode: exclusion;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td {
+    width: 25%;
+}
+
+.narrow {
+    width: 10%;
+}
+
+.wide {
+    width: 50%;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-right {
+    text-align: right;
+    vertical-align: top;
+}
+
+.bottom-left {
+    text-align: left;
+    word-wrap: normal;
+    width: 80%;
+    font-weight: normal;
+}
+
+.bordered {
+    border: 1px solid #FFFFFF;
+}
+
+.thin-bordered {
+    border: 1px solid #484848;
+}
+
+.bottom-bordered {
+    border-bottom: 1px solid #FF2014;
+    color: #FF2014;
+}
+
+.table-title {
+    background-color: #FF2014;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.table-header {
+    color: #FF2014;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.large-cell {
+    width: 14.28%;
+    height: 75px;
+}
+
+.padded {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* stuff for copying abilities */
+
+.hidden-table {
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    font-family: "Times New Roman", Times, serif;
+    table-layout: fixed;
+    width: 850px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    mix-blend-mode: normal;
+    display: none;
+}
+
+.black-bordered {
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    font-family: "Times New Roman", Times, serif;
+    mix-blend-mode: normal;
+}
+
+.hidden-p {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    mix-blend-mode: normal;
+}
+
+.copy-button {
+    margin: 10px 5px 5px 10px;
+    float: right;
+    background-color: transparent;
+    color: #c1c1c1;
+    outline: 2px solid #c1c1c1;
+    outline-offset: 2px;
+    border: 0;
+    box-shadow: none;
+}
+
+.copy-button:active {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: right;
+    background-color: transparent;
+    color: lightgreen;
+    outline: 2px solid lightgreen;
+    outline-offset: 2px;
+    border: 0;
+    box-shadow: none;
+}
+
+/* sidebar */
+
+.grid-container {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.1s;
+}
+
+.sidenav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidenav a {
+    display: block;
+    font-size: 20px;
+    color: #c1c1c1;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+}
+
+.sidenav a:hover {
+    color: #FF6D6D;
+}
+
+.sidenav-subsection {
+    background-color: #111;
+    padding-left: 20px;
+}
+
+.sidenav-subsection a {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 750px) {
+    /* Shrink text when the screen is very narrow */
+    article {
+        font-size: 16px;
+    }
+
+    .sidenav a {
+        font-size: 14px;
+        padding: 3px 4px 3px 8px;
+    }
+    .sidenav-subsection a {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+}
