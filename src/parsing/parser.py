@@ -208,6 +208,7 @@ OUTLINE['Axes Moveset'] = _process_moveset
 OUTLINE['Blunt Weapons Moveset'] = _process_moveset
 OUTLINE['Polearms Moveset'] = _process_moveset
 OUTLINE['Ranged Weapons Moveset'] = _process_moveset
+OUTLINE['Shortblades Moveset'] = _process_moveset
 
 
 def parse_data(log):

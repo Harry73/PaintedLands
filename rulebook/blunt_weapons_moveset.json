@@ -729,7 +729,7 @@
     },
     {
         "order": "50",
-        "name": "Warrior of Light",
+        "name": "Paragon",
         "poise_requirement": "100",
         "poise_cost": "-5",
         "description": [

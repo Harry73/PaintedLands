@@ -1,0 +1,811 @@
+[
+    {
+        "order": "1",
+        "name": "Crook's Slice",
+        "poise_requirement": "None",
+        "poise_cost": "None",
+        "description": [
+            "A basic attack that anyone who picks up a dagger could execute. Not to be used by anyone with decent experience with shortblades."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: -3 to hit",
+            "  * Damage: 1d4"
+        ]
+    },
+    {
+        "order": "2",
+        "name": "Straight Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A straightforward attack at center mass. Your basic low poise damage move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "3",
+        "name": "Quick Slice",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "A fast and balanced attack. A basic move to generate poise and deal some damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "4",
+        "name": "Deep Slice",
+        "poise_requirement": "70",
+        "poise_cost": "-20",
+        "description": [
+            "A hard, deep cut. A strong critical striking move to use at high poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage",
+            "    * On Attack Roll of 11 - Deal 3x damage",
+            "    * On Attack Roll of 10 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "5",
+        "name": "Lacerating Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A slash with a serrated blade. A basic damage over time attack."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Until the end of the next round, the target bleeds for 1d4 damage at the end of each round"
+        ]
+    },
+    {
+        "order": "6",
+        "name": "Precision Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An accurate attack. An alternative to Straight Slice with some added accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "7",
+        "name": "Vanish",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "You find cover and hide. A great way to utilize special positions that provide cover."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver into a special position that provides cover, ignoring adjacency and special entry restrictions"
+        ]
+    },
+    {
+        "order": "8",
+        "name": "Ready For The Kill",
+        "poise_requirement": "None",
+        "poise_cost": "+30",
+        "description": [
+            "You prepare for a lethal attack. A powerful poise generating move if you manage to find cover."
+        ],
+        "additional_requirements": [
+            "* You are hidden behind cover"
+        ],
+        "effects": [
+            "* None"
+        ]
+    },
+    {
+        "order": "9",
+        "name": "Lethal Slice",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack at the jugular veins. With some luck, this move could kill someone in one shot."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill"
+        ]
+    },
+    {
+        "order": "10",
+        "name": "Assassinate",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "A killing blow. A powerful move to use at high poise, with a wide critical strike range."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 4x damage",
+            "    * On Attack Roll of 10 - Deal 3x damage",
+            "    * On Attack Roll of 9 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "11",
+        "name": "Advancing Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A sudden ambush. A flexible mobility move with some damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver up to 2 lines forward",
+            "* Attack",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "12",
+        "name": "Retreating Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A quick step back. A flexible mobility move with some damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "* You maneuver up to 2 lines backward"
+        ]
+    },
+    {
+        "order": "13",
+        "name": "Twin Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with two knives. An alternative to Straight Slice with better critical strike chance, available to dual wielding dagger users."
+        ],
+        "additional_requirements": [
+            "* You are dual wielding shortblades"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "14",
+        "name": "Stalk",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "You carefully advance. A mobility move that also generates poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You maneuver 1 line forward"
+        ]
+    },
+    {
+        "order": "15",
+        "name": "Bloodlust",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "Seeing blood fall makes you excited. A risky poise generating move that has high payoff with the right setup and with good luck."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Choose a target enemy. At the end of the round, you gain poise equal to 5 times the amount of damage they take from bleeding"
+        ]
+    },
+    {
+        "order": "16",
+        "name": "Relentless",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "You never let up. A move that can help you string more than one critical strike together."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* If your last attack was a critical strike, your next move has its minimum critical strike requirement expanded by 1"
+        ]
+    },
+    {
+        "order": "17",
+        "name": "Evasive Footwork",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You are hard to pin down. A defensive buff that sets up for a safe maneuver next round."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until the end of the next round, you have +1 AC and enemy moves/spells cannot prevent you from maneuvering"
+        ]
+    },
+    {
+        "order": "18",
+        "name": "Focus",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You prepare for a powerful attack. A more accessible version of Relentless."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next move has its minimum critical strike requirement expanded by 1 value"
+        ]
+    },
+    {
+        "order": "19",
+        "name": "Backup Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You back up a teammate. Automatic counterattacks to help defend for an ally in the frontline."
+        ],
+        "additional_requirements": [
+            "* You are in the midline"
+        ],
+        "effects": [
+            "* Until the beginning of your next turn, whenever target ally in the frontline is hit by an attack, you attack the enemy that attacked the target, dealing 2d4 damage with the following:",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "20",
+        "name": "Backstab",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from behind. A great way to punish enemies aiming at your allies in the back."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 3x damage",
+            "    * On Attack Roll of 11 - Deal 2x damage",
+            "  * If your target attacked an ally in a line behind you this round, this attack has +1 to hit and +2d4 damage"
+        ]
+    },
+    {
+        "order": "21",
+        "name": "Hidden Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack from stealth. A more powerful version of Straight Slice if you are hidden."
+        ],
+        "additional_requirements": [
+            "* You are hidden behind cover"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage"
+        ]
+    },
+    {
+        "order": "22",
+        "name": "Shadow Slice",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "A fast attack from stealth. An alternative to Quick Slice if you are hidden."
+        ],
+        "additional_requirements": [
+            "* You are hidden behind cover"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage"
+        ]
+    },
+    {
+        "order": "23",
+        "name": "Sneak Attack",
+        "poise_requirement": "70",
+        "poise_cost": "-20",
+        "description": [
+            "A powerful attack from stealth. A more powerful version of Deep Slice if you are hidden."
+        ],
+        "additional_requirements": [
+            "* You are hidden behind cover"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 4x damage",
+            "    * On Attack Roll of 10 - Deal 3x damage",
+            "    * On Attack Roll of 9 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "24",
+        "name": "Ichor Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that bleeds the enemy's momentum. A basic poise damage move that combos with bleed attacks."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Target loses 5 poise; if they bled since their last turn, they lose 10 poise instead"
+        ]
+    },
+    {
+        "order": "25",
+        "name": "Skyfall Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A falling assassination. A strong way to engage an enemy below you."
+        ],
+        "additional_requirements": [
+            "* You have a height advantage over your target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 3x damage",
+            "* You may maneuver to any low ground position; if you do, your next attack has +1 to hit"
+        ]
+    },
+    {
+        "order": "26",
+        "name": "Throwing Knife",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with a thrown dagger. A basic ranged option for dealing with distant targets."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 3x damage"
+        ]
+    },
+    {
+        "order": "27",
+        "name": "Ambush Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack on an unprepared enemy. A great opening move for each new combat."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * If the target has not acted yet this combat, this attack has +1 to hit, +2d4 damage, and has the following:",
+            "    * Critical Strike:",
+            "      * On Attack Roll of 9, 10, 11, or 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "28",
+        "name": "Sharpen",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "You sharpen your blade. A low cost damage buff."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next attack has +1d4 damage and +1d4 critical strike damage"
+        ]
+    },
+    {
+        "order": "29",
+        "name": "Stiletto",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You sharpen your blade to a fine point. A higher cost, more powerful damage buff."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next attack has +2d4 damage and +2d4 critical strike damage"
+        ]
+    },
+    {
+        "order": "30",
+        "name": "Sanguine Blade",
+        "poise_requirement": "80",
+        "poise_cost": "-25",
+        "description": [
+            "A legendary attack that makes rivers run red. A more powerful version of Lacerating Slice to use at high poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Until the end of the next round, the target bleeds for 2d4 damage at the end of each round"
+        ]
+    },
+    {
+        "order": "31",
+        "name": "Alleyway Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "An attack from the bowels of a dark city. A strong attack with good instant kill criticals if you are in a city."
+        ],
+        "additional_requirements": [
+            "* You are in a settlement"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Instant Kill",
+            "* If this attack kills the target, you become hidden in your current position until the end of the current round"
+        ]
+    },
+    {
+        "order": "32",
+        "name": "Spinning Slice",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "You spin your daggers quickly. A poise generating move for dual wielding shortblade users."
+        ],
+        "additional_requirements": [
+            "* You are dual wielding shortblades"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "33",
+        "name": "Rapid Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A series of attacks. A more efficient alternative to Twin Slice that forces you to commit to its use a second time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 2x damage",
+            "  * You automatically repeat this attack during your next turn on the same target instead of taking an action"
+        ]
+    },
+    {
+        "order": "34",
+        "name": "Fleet Footwork",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "You move too fast to hit. A strong, short lived defensive buff at a low poise cost."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You have +2 AC until the end of this round"
+        ]
+    },
+    {
+        "order": "35",
+        "name": "Walk in Shadows",
+        "poise_requirement": "50",
+        "poise_cost": "None",
+        "description": [
+            "You are one with the darkness. A strong option to enable your hidden attacks."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Until your poise falls below 50, your critical strikes have:",
+            "  * Become hidden in your current position until the end of the next round"
+        ]
+    },
+    {
+        "order": "36",
+        "name": "Nightwalker Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from the cover of night. A powerful damage dealing move if it's nighttime. "
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 3x damage",
+            "  * This attack gains +2d4 damage and its minimum critical strike requirement is expanded by 2 if it is nighttime"
+        ]
+    },
+    {
+        "order": "37",
+        "name": "Parting Gift",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack as you and your team head out. A good way to deal some damage and deplete some enemy poise if your allies provide some assistance, or to punish enemy forced movement moves."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage",
+            "  * This attack has +2d4 damage and causes the target to lose 5 poise if you maneuvered due to another character's move this round."
+        ]
+    },
+    {
+        "order": "38",
+        "name": "Macebreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack demonstrating the daggers precise superiority over the mace. A good option to counter enemy blunt weapon users."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage",
+            "  * This attack has +1 to hit and +2d4 damage if the target is wielding a blunt weapon"
+        ]
+    },
+    {
+        "order": "39",
+        "name": "Throatslitting Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack to cut breath short. A strong counter to enemy spellcasters."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "  * This attack has +2d4 damage if the target cast a spell this round",
+            "  * The target fails to cast spells until the end of the next round"
+        ]
+    },
+    {
+        "order": "40",
+        "name": "Fan of Knives",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack with many thrown daggers. A decent way to deal chip damage to many enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack hits all enemies",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage"
+        ]
+    },
+    {
+        "order": "41",
+        "name": "Quickdraw Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with a freshly drawn dagger. A strong opening move if you've just weapon swapped to a shortblade, for those who use more than one weapon."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 3x damage",
+            "    * On Attack Roll of 11 - Deal 2x damage",
+            "  * This attack has +2 to hit and +2d4 damage if your last action was a weapon swap"
+        ]
+    },
+    {
+        "order": "42",
+        "name": "Knife Juggling",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You juggle many knives but choose one. A random attack that has the chance of saving you some poise if you're lucky."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Gain 15 poise",
+            "    * On Attack Roll of 11 - Gain 10 poise",
+            "    * On Attack Roll of 10 - Gain 5 poise"
+        ]
+    },
+    {
+        "order": "43",
+        "name": "Scoundrel's Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while you use another person as a meat shield. A way to redirect damage to another ally."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "* The next attack this round that targets you is redirected to a target ally in the same line"
+        ]
+    },
+    {
+        "order": "44",
+        "name": "Sawtooth Edge",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You modify your blade to draw more blood. A setup move for a bleed attack."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next move that applies a bleed effect applies twice as much bleed instead"
+        ]
+    },
+    {
+        "order": "45",
+        "name": "Lucky Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-5",
+        "description": [
+            "An attack that gambles a little. This attack is only good if you manage to score a critical strike."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage"
+        ]
+    },
+    {
+        "order": "46",
+        "name": "Hunter's Slice",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that doesn't give the enemy time to rest. A strong punishment to poise gain moves."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * This attack has +1d4 damage for every 5 poise the target gained this round"
+        ]
+    },
+    {
+        "order": "47",
+        "name": "Blood Rain",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You throw many fine needles. A way to inflict bleed to all enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack hits all enemies",
+            "  * Until the end of the round, targets bleed for 1d4 damage at the end of each round"
+        ]
+    },
+    {
+        "order": "48",
+        "name": "Empowered Slice",
+        "poise_requirement": "80",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with variable critical strike chance. If you're willing to spend extra poise, you can fish for a critical strike."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 4x damage",
+            "  * When you execute this move, spend an additional 10 poise any number of times, and expand this attacks minimum critical strike requirement by 1 for each time you do so"
+        ]
+    },
+    {
+        "order": "49",
+        "name": "Heartseeker",
+        "poise_requirement": "80",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that gains momentum with kills. A great way to finish off an enemy and setup for another powerful turn."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll fo 11 - Deal 4x damage",
+            "  * If this attack kills the target, your poise becomes 90"
+        ]
+    },
+    {
+        "order": "50",
+        "name": "Twilight",
+        "poise_requirement": "100",
+        "poise_cost": "-5",
+        "description": [
+            "A masterful stroke that fells the mighty. A powerful attack to use at maximum poise once per day."
+        ],
+        "additional_requirements": [
+            "* You have rested at least once since you last executed this move"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 4x damage",
+            "    * On Attack Roll of 10 - Deal 3x damage",
+            "    * On Attack Roll of 9 - Deal 2x damage",
+            "* Your next attack has its minimum critical strike requirement expanded by 2; if that attack is a critical strike, it refunds its poise cost and this effect occurs again"
+        ]
+    }
+]

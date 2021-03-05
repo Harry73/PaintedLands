@@ -816,13 +816,15 @@
     },
     {
         "order": "50",
-        "name": "Gae Bolg Ionsai",
+        "name": "Sunburst",
         "poise_requirement": "100",
         "poise_cost": "-5",
         "description": [
             "A legendary attack by a master of the spear. A powerful poise damaging move that can only be used once per day."
         ],
-        "additional_requirements": [],
+        "additional_requirements": [
+            "* You have rested at least once since you last executed this move"
+        ],
         "effects": [
             "* Attack",
             "  * This attack is made with one level of advantage unless you are in a special position",

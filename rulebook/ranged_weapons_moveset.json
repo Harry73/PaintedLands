@@ -13,5 +13,810 @@
             "  * Accuracy Modifier: -3 to hit",
             "  * Damage: 1d4"
         ]
+    },
+    {
+        "order": "2",
+        "name": "Straight Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A standard attack at center mass. Your basic low poise damage dealing move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "3",
+        "name": "Quick Shot",
+        "poise_requirement": "None",
+        "poise_cost": "+15",
+        "description": [
+            "A fast and balanced attack. Your basic poise generating damage dealing move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4"
+        ]
+    },
+    {
+        "order": "4",
+        "name": "Power Shot",
+        "poise_requirement": "70",
+        "poise_cost": "-20",
+        "description": [
+            "A powerful attack. Your basic high poise damage dealing move."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "5",
+        "name": "Precision Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An accurate attack. An alternative to Straight Shot that buys some accuracy with some poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "6",
+        "name": "Wild Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A poorly aimed and heavy attack. An alternative to Straight Shot that buys some damage with poise and accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Accuracy Modifier: -1 to hit",
+            "  * Damage: 3d4"
+        ]
+    },
+    {
+        "order": "7",
+        "name": "Careful Repose",
+        "poise_requirement": "None",
+        "poise_cost": "+25",
+        "description": [
+            "You consider your next move. Your best poise generating move in the moveset."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* None"
+        ]
+    },
+    {
+        "order": "8",
+        "name": "Shadow Shot",
+        "poise_requirement": "50",
+        "poise_cost": "-10",
+        "description": [
+            "An attack from darkness. An early option for dealing damage from behind cover."
+        ],
+        "additional_requirements": [
+            "* You are hidden behind cover"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4"
+        ]
+    },
+    {
+        "order": "9",
+        "name": "Sniper Shot",
+        "poise_requirement": "80",
+        "poise_cost": "-25",
+        "description": [
+            "A highly accurate shot. A strong high poise option with fantastic accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Accuracy Modifier: +2 to hit",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "10",
+        "name": "Wyvernfall",
+        "poise_requirement": "90",
+        "poise_cost": "-30",
+        "description": [
+            "An attack that slays dragons. A powerful move to use at very high poise, with a chance to instantly kill the enemy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "11",
+        "name": "Take Aim",
+        "poise_requirement": "None",
+        "poise_cost": "+5",
+        "description": [
+            "You aim carefully. A small buff that also generates a small amount of poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next attack has +1 to hit"
+        ]
+    },
+    {
+        "order": "12",
+        "name": "Full Draw",
+        "poise_requirement": "None",
+        "poise_cost": "+5",
+        "description": [
+            "You pull back fully on the bowstring. A small buff that also generates a small amount of poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Your next attack has +1d4 damage"
+        ]
+    },
+    {
+        "order": "13",
+        "name": "Advancing Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You shoot while moving forward. A decent move to maneuver and attack at the same time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "* You maneuver 1 line forward"
+        ]
+    },
+    {
+        "order": "14",
+        "name": "Retreating Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You shoot while dashing backward. A good move to maneuver and deal damage at the same time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "* You maneuver 1 line backward"
+        ]
+    },
+    {
+        "order": "15",
+        "name": "Backflip Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "You backflip and shoot at the same time. A strong maneuver with extra defenses and damage attached."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "* You maneuver 2 lines backward",
+            "* You have +1 AC until the end of the round"
+        ]
+    },
+    {
+        "order": "16",
+        "name": "Skyshot",
+        "poise_requirement": "60",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from high ground. A highly accurate attack if you manage to gain a height advantage."
+        ],
+        "additional_requirements": [
+            "* You have a height advantage over your target"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage and instead has 1 level of advantage",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 2d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "17",
+        "name": "Leg Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack at the legs. A basic poise damaging move that isn't too expensive to execute."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * Target loses 5 poise"
+        ]
+    },
+    {
+        "order": "18",
+        "name": "Tactical Discussion",
+        "poise_requirement": "None",
+        "poise_cost": "+10",
+        "description": [
+            "You discuss your next move with a teammate. A solid support option for fellow backline party members."
+        ],
+        "additional_requirements": [
+            "* You are in the backline"
+        ],
+        "effects": [
+            "* Target ally in the same line gains +10 poise"
+        ]
+    },
+    {
+        "order": "19",
+        "name": "Covering Fire",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that covers an ally. A good way to help allies maneuver."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "* Target ally may maneuver 1 line forward or backward"
+        ]
+    },
+    {
+        "order": "20",
+        "name": "Big Game Hunting",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against the biggest threat. A powerful and reliable attack against high health targets."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * If the target has the highest current health amongst all characters in combat, this attack has +2d4 damage and has the following:",
+            "    * Critical Strike:",
+            "      * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "21",
+        "name": "Backup Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to support an ally. A good way to protect allies while dealing damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * Target has -1 to hit on their next attack if their target is another ally"
+        ]
+    },
+    {
+        "order": "22",
+        "name": "Twin Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "You nock two arrows at once. An attack on two enemies at once as long as they are close to each other."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * This attack hits two enemies that are adjacent to each other",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "23",
+        "name": "Rain of Arrows",
+        "poise_requirement": "70",
+        "poise_cost": "-25",
+        "description": [
+            "You cause arrows to rain on your enemies. A powerful AOE attack if you're at high poise."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * This attack hits all enemies1",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "24",
+        "name": "Weakening Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack aimed at major muscle systems. A decent option for controlling enemy damage output."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * Target has -1D damage on their next attack"
+        ]
+    },
+    {
+        "order": "25",
+        "name": "Double Tap",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A second attack on a wounded enemy. A good attack if you and your party are focusing on a single target."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * This attack has +2d4 damage if the target took 6 damage earlier this round"
+        ]
+    },
+    {
+        "order": "26",
+        "name": "Blizzard Bow",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack invoking the powers of snow. A rare option for a well aimed stunning attack."
+        ],
+        "additional_requirements": [
+            "* You are in a snow biome"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Accuracy Modifier: +1 to hit",
+            "  * Damage: 1d4",
+            "  * Roll a d6:",
+            "    * On 6 - Target is stunned"
+        ]
+    },
+    {
+        "order": "27",
+        "name": "Ruinhunter",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack to flush out enemies hiding amongst ruins. A strong option when enemies are hiding behind rubble."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * This attack ignores cover provided by rubble",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "28",
+        "name": "Flushout Shot",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against a well-positioned enemy. An excellent option if enemies are abusing special positions."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * This attack has +2d4 damage if the target is in a special position"
+        ]
+    },
+    {
+        "order": "29",
+        "name": "Raiding Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack while on horseback. A very poise efficient option for mounted ranged weapon users."
+        ],
+        "additional_requirements": [
+            "* You are mounted"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Accuracy Modifier: -1 to hit",
+            "  * Damage: 3d4",
+            "* You maneuver 1 line forward or backward"
+        ]
+    },
+    {
+        "order": "30",
+        "name": "Gore Stream",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "A series of fast attacks. An attack that scales with repeated use."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * This attack has +1d4 damage for every time it has been used in succession, up to a limit of +3d4"
+        ]
+    },
+    {
+        "order": "31",
+        "name": "Opening Volley",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "A powerful initial attack. A move that can only be used once per combat, to start off the fight."
+        ],
+        "additional_requirements": [
+            "* This is the first round of combat"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "32",
+        "name": "Hunter's Mark",
+        "poise_requirement": "50",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that exposes weaknesses. A great way to set up allies for a chance at improved damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * Until the end of the next round, the target grants attacks against it that have no critical strike chance the following:",
+            "    * Critical Strike:",
+            "      * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "33",
+        "name": "Knifebreaker",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack leveraging the bow's range superiority over the dagger. A great counter to shortblade wielding enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * This attack has +1 to hit and +2d4 damage if the target wields a shortblade"
+        ]
+    },
+    {
+        "order": "34",
+        "name": "Arrow Drop",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack aimed high at the sky. A higher damage alternative to Straight Shot that doesn't allow you to pick your target."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack selects a random enemy target",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4"
+        ]
+    },
+    {
+        "order": "35",
+        "name": "Serrated Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that tears at flesh. An option for dealing damage over time."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * Target takes 1d4 damage at the end of each round until the end of the next round"
+        ]
+    },
+    {
+        "order": "36",
+        "name": "Pinning Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that pins an enemy in place. A good way to control enemy movement if you can anticipate what the enemy will do."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * Target fails to maneuver this round"
+        ]
+    },
+    {
+        "order": "37",
+        "name": "Broadhead Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with a broadhead arrow. An effective option against an enemy's mount."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * If this attack is made against a mount, it has +2d4 damage and has the following:",
+            "    * Critical Strike:",
+            "      * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "38",
+        "name": "Dispelling Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that confuddles mages. An excellent option to prevent the actions of enemy spellcasters."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * Target fails to cast spells this round"
+        ]
+    },
+    {
+        "order": "39",
+        "name": "Pinpoint Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack with an armor piercing round. A good option against heavily armored enemies."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * This attack ignores AC granted by armor",
+            "  * Damage: 3d4"
+        ]
+    },
+    {
+        "order": "40",
+        "name": "Pointblank Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack from up close. An efficient damage dealing option if you're willing to put yourself at risk."
+        ],
+        "additional_requirements": [
+            "* You are in the frontline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage"
+        ]
+    },
+    {
+        "order": "41",
+        "name": "Piercing Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-20",
+        "description": [
+            "An attack that hits enemies in a straight line. An efficient AOE damage dealing move that exploits a ranged weapon's unique accuracy."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * This attack hits 1 target in each line",
+            "  * Damage: 2d4"
+        ]
+    },
+    {
+        "order": "42",
+        "name": "Knockback Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack with a heavy arrow. A way to shove back enemies in the frontline, or collapse a fragile midline."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 2d4",
+            "  * Target is pushed 1 line backward"
+        ]
+    },
+    {
+        "order": "43",
+        "name": "Soulrending Shot",
+        "poise_requirement": "80",
+        "poise_cost": "-30",
+        "description": [
+            "An attack that harms momentum heavily. A strong poise damage dealing move if your own poise is high."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 3d4",
+            "  * Target loses 15 poise",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Deal 2x damage and target loses 5 poise"
+        ]
+    },
+    {
+        "order": "44",
+        "name": "Stillness",
+        "poise_requirement": "None",
+        "poise_cost": "-10",
+        "description": [
+            "You find your center. A long term accuracy buff if you can manage to avoid damage."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* You have +1 to hit until the next time you take damage"
+        ]
+    },
+    {
+        "order": "45",
+        "name": "Twisting Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that does not miss. A reliable way to deal damage to enemies without armor."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * If this attack's Attack Roll is lower than 7, it becomes 7",
+            "  * Damage: 1d4"
+        ]
+    },
+    {
+        "order": "46",
+        "name": "Sorcerous Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that focuses magical energy. A strong damage dealing move if an allied mage is assisting you."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 1d4",
+            "  * This attack has +2d4 damage if you are benefitting from a spell effect"
+        ]
+    },
+    {
+        "order": "47",
+        "name": "Speed Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that fires exceptionally fast. A way to deal damage out of poise order if you need to."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores poise order and is instead executed at the beginning of the round",
+            "  * Damage: 1d4"
+        ]
+    },
+    {
+        "order": "48",
+        "name": "Delayed Shot",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack that fires exceptionally slow. A way to deal damage out of poise order if you need to."
+        ],
+        "additional_requirements": [],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores poise order and is instead executed at the end of the round",
+            "  * Damage: 3d4"
+        ]
+    },
+    {
+        "order": "49",
+        "name": "Countersniping",
+        "poise_requirement": "None",
+        "poise_cost": "-15",
+        "description": [
+            "An attack against an enemy archer. A good way to counter ranged weapon wielding enemies that are harrying your team."
+        ],
+        "additional_requirements": [
+            "* You are in the backline"
+        ],
+        "effects": [
+            "* Attack",
+            "  * Damage: 1d4",
+            "  * This attack has +2 to hit and +2d4 damage if your target wields a bow, is in the backline, and has dealt at least 5 damage this round"
+        ]
+    },
+    {
+        "order": "50",
+        "name": "Genesis",
+        "poise_requirement": "100",
+        "poise_cost": "-5",
+        "description": [
+            "An attack that creates new possibilities. A powerful attack that can only be used once per combat if you manage to get your poise high enough."
+        ],
+        "additional_requirements": [
+            "* You have rested at least once since you last executed this move"
+        ],
+        "effects": [
+            "* Attack",
+            "  * This attack ignores positional advantage and disadvantage",
+            "  * Damage: 4d4",
+            "  * Critical Strike:",
+            "    * On Attack Roll of 12 - Instant Kill",
+            "    * On Attack Roll of 11 - Deal 2x damage",
+            "* Your next attack that gains benefits based on additional requirements or certain conditions being fulfilled has those requirements and conditions automatically fulfilled. It also ignores its poise requirement."
+        ]
     }
 ]
