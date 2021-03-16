@@ -779,7 +779,7 @@
             "* Attack",
             "  * This attack is made with one level of advantage unless you are in a special position",
             "  * Damage: 1d8",
-            "  * This attack has +1d8 damage and inflicts -1 AC and -1 to hit on the target if the target is in the frontline"
+            "  * If the target is in the frontline, this attack has +1d8 damage and inflicts -1 AC and -1 to hit on the target until the end of the next round"
         ]
     },
     {

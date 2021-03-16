@@ -152,7 +152,9 @@
         "description": [
             "An attack combined with the defense of a shield. A very efficient way to deal damage and keep your defenses up."
         ],
-        "additional_requirements": [],
+        "additional_requirements": [
+            "* Must have a shield equipped"
+        ],
         "effects": [
             "* Attack",
             "  * Damage: 2d6",
@@ -185,9 +187,9 @@
         ],
         "additional_requirements": [],
         "effects": [
+            "* You maneuver 1 line forward",
             "* Attack",
-            "  * Damage: 1d6",
-            "* You maneuver 1 line forward"
+            "  * Damage: 1d6"
         ]
     },
     {

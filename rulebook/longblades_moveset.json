@@ -343,7 +343,7 @@
         "poise_requirement": "None",
         "poise_cost": "-10",
         "description": [
-            "A defensive move to protect a friend. A reliable if brief way to tank for a key member of your party.1"
+            "A defensive move to protect a friend. A reliable if brief way to tank for a key member of your party."
         ],
         "additional_requirements": [
             "* You have at least 1 ally in the same line or in the line behind you to target"
@@ -358,7 +358,7 @@
         "poise_requirement": "None",
         "poise_cost": "-15",
         "description": [
-            "An attack on enemies hiding in brush. A strong option against enemies who are hiding, if the circumstances allow for it"
+            "An attack on enemies hiding in brush. A strong option against enemies who are hiding, if the circumstances allow for it."
         ],
         "additional_requirements": [],
         "effects": [
@@ -576,7 +576,7 @@
         ],
         "effects": [
             "* Target adjacent ally gains +1 AC until the end of the next round",
-            "* You have -1 AC until the end of the next round1"
+            "* You have -1 AC until the end of the next round"
         ]
     },
     {
@@ -642,7 +642,9 @@
         "additional_requirements": [
             "* Since the beginning of your last turn, you or an ally used a move that caused you to change position"
         ],
-        "effects": []
+        "effects": [
+            "* Heal for 1d6 health"
+        ]
     },
     {
         "order": "42",

@@ -363,7 +363,7 @@
         "effects": [
             "* Attack",
             "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack hits all enemies1",
+            "  * This attack hits all enemies",
             "  * Damage: 2d4"
         ]
     },
