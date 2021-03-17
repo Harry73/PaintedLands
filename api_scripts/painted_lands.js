@@ -142,6 +142,9 @@ var PaintedLands = PaintedLands || (function () {
         }
         poise = parse_int(poise);
 
+        // Colons do weird things to the button, get rid of them
+        action = action.replace(/:/g, ';');
+
         const button_section = " {{button=<a href='!pl act %s|%s|%s'>Show Action</a>}}".format(entity, poise, action);
         const response = '&{template:PaintedLands} {{name=%s is Ready}} {{poise=%s}} %s'.format(
             entity, poise, button_section);
