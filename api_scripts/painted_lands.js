@@ -149,11 +149,25 @@ var PaintedLands = PaintedLands || (function () {
         const response = '&{template:PaintedLands} {{name=%s is Ready}} {{poise=%s}} %s'.format(
             entity, poise, button_section);
         LOG.info('Save action: ' + response);
-        SAVED_ACTIONS.push({
-            'entity': entity,
-            'poise': poise,
-            'action': action,
-        });
+
+        const record = {
+           'entity': entity,
+           'poise': poise,
+           'action': action,
+        };
+
+        let index = -1;
+        for (let i = 0; i < SAVED_ACTIONS.length; i++) {
+            if (SAVED_ACTIONS[i].entity === entity) {
+                index = i;
+            }
+        }
+        if (index === -1) {
+            SAVED_ACTIONS.push(record);
+        } else {
+            SAVED_ACTIONS[index] = record;
+        }
+
         chat(entity, response);
     }
 
