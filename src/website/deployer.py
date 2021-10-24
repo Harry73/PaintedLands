@@ -14,7 +14,7 @@ GENERATED_STYLE_PATH = os.path.join(GENERATED_HTML_PATH, 'pl_style.css')
 LOCAL_STYLE_SHEET = 'pl_style.css'
 REMOTE_STYLE_SHEET = "{{ url_for('static', filename='pl_style.css') }}"
 
-INSTANCE_HOSTNAME = '3.82.252.244'
+INSTANCE_HOSTNAME = '44.197.215.141'
 INSTANCE_USER = 'ubuntu'
 KEY_FILE = 'server.pem'
 TIMEOUT_SEC = 60
