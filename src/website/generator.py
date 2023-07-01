@@ -151,4 +151,4 @@ def _generate_rulebook_html(log):
 def generate_html(log):
     make_dir(HTML_GENERATED)
     _generate_rulebook_html(log)
-    shutil.copyfile(os.path.join(HTML_TEMPLATES, 'pl_style.css'), os.path.join(HTML_GENERATED, 'pl_style.css'))
+    shutil.copyfile(os.path.join(HTML_TEMPLATES, 'style.css'), os.path.join(HTML_GENERATED, 'style.css'))

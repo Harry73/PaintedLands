@@ -9,12 +9,12 @@ import time
 CURRENT_PATH = os.path.dirname(os.path.realpath(sys.argv[0]))
 GENERATED_HTML_PATH = os.path.join(CURRENT_PATH, 'html', 'generated')
 GENERATED_RULEBOOK_PATH = os.path.join(GENERATED_HTML_PATH, 'PaintedLands.html')
-GENERATED_STYLE_PATH = os.path.join(GENERATED_HTML_PATH, 'pl_style.css')
+GENERATED_STYLE_PATH = os.path.join(GENERATED_HTML_PATH, 'style.css')
 
-LOCAL_STYLE_SHEET = 'pl_style.css'
-REMOTE_STYLE_SHEET = "{{ url_for('static', filename='pl_style.css') }}"
+LOCAL_STYLE_SHEET = 'style.css'
+REMOTE_STYLE_SHEET = "{{ url_for('static', filename='painted_lands/style.css') }}"
 
-INSTANCE_HOSTNAME = '44.197.215.141'
+INSTANCE_HOSTNAME = '3.222.117.14'
 INSTANCE_USER = 'ubuntu'
 KEY_FILE = 'server.pem'
 TIMEOUT_SEC = 60
@@ -77,13 +77,13 @@ def deploy(log):
         ssh_client.connect(hostname=INSTANCE_HOSTNAME, username=INSTANCE_USER, pkey=ssh_key, timeout=TIMEOUT_SEC)
 
         scp_client = scp.SCPClient(ssh_client.get_transport(), socket_timeout=TIMEOUT_SEC, progress=progress)
-        _upload(scp_client, GENERATED_RULEBOOK_PATH, '/home/ubuntu/barbs/templates/PaintedLands.html',
+        _upload(scp_client, GENERATED_RULEBOOK_PATH, '/home/ubuntu/kouhai/templates/painted_lands/PaintedLands.html',
                 'PaintedLands rulebook', log)
-        _upload(scp_client, GENERATED_STYLE_PATH, '/home/ubuntu/barbs/static/pl_style.css',
+        _upload(scp_client, GENERATED_STYLE_PATH, '/home/ubuntu/kouhai/static/painted_lands/style.css',
                 'PaintedLands style sheets', log)
 
         log('Restarting server')
-        ssh_client.exec_command('pm2 restart barbs')
+        ssh_client.exec_command('pm2 restart kouhai')
 
     except Exception:
         raise Exception('Failed uploading files, likely a network error. Regenerate files before re-uploading.')

@@ -3,7 +3,8 @@ import docx2python.iterators
 import json
 import os
 
-from collections import Callable, OrderedDict
+from collections import OrderedDict
+from collections.abc import Callable
 
 from src.common import count_leading_characters, make_dir, paragraph, SECTION_HEADER
 
