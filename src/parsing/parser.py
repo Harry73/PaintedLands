@@ -1,10 +1,11 @@
-import docx2python
-import docx2python.iterators
 import json
 import os
-
 from collections import OrderedDict
 from collections.abc import Callable
+from docx import Document
+from docx.table import Table
+from docx.text.paragraph import Paragraph
+from typing import Iterable, List
 
 from src.common import count_leading_characters, make_dir, paragraph, SECTION_HEADER
 
@@ -27,13 +28,25 @@ def _fix_quotes(obj):
         return obj
 
 
+def _iter_visual_cells(table: Table):
+    """ Merged cells in a table appear multiple times. This returns them just once. """
+    for row in table.rows:
+        prior_cell = None
+        for cell in row.cells:
+            this_cell = cell._tc
+            if this_cell is prior_cell:  # skip cells pointing to same `<w:tc>` element
+                continue
+            yield cell
+            prior_cell = this_cell
+
+
 def _write_section(f, section):
     for line in section:
         f.write(paragraph(line))
     f.write('<br>\n')
 
 
-def _lines_to_sections(lines, section_headers):
+def _lines_to_sections(lines, section_headers: List[str]):
     section_indices = []
     for index, line in enumerate(lines):
         if line in section_headers:
@@ -60,16 +73,17 @@ def _lines_to_sections(lines, section_headers):
     return preface, sections
 
 
-def _process_subsection(f, outline, section, depth):
+def _process_subsection(log, f, outline, section, depth):
     if outline is None:
         _write_section(f, section)
     else:
         preface, subsections = _lines_to_sections(section, outline.keys())
         for subsection_header, subsection in subsections.items():
+            log(f'Parsing subsection "{subsection_header}"')
             f.write(SECTION_HEADER.format(name=subsection_header, level='h' + str(depth)))
             if preface is not None:
                 _write_section(f, preface)
-            _process_subsection(f, outline[subsection_header], subsection, depth + 1)
+            _process_subsection(log, f, outline[subsection_header], subsection, depth + 1)
 
 
 def _find_line_index(lines, keys):
@@ -181,9 +195,12 @@ OUTLINE['Design Goals']['Skill'] = None
 OUTLINE['Design Goals']['Fiction First'] = None
 OUTLINE['Setting'] = None
 OUTLINE['System Basics'] = OrderedDict()
-OUTLINE['System Basics']['Skill Checks'] = None
+OUTLINE['System Basics']['Skill Tests'] = None
 OUTLINE['System Basics']['Combat'] = None
+OUTLINE['System Basics']['Attack Roll Calculations'] = None
 OUTLINE['System Basics']['Position'] = None
+OUTLINE['System Basics']['Magic'] = None
+OUTLINE['System Basics']['Poise Rerolls and Rests'] = None
 OUTLINE['Character Creation'] = None
 OUTLINE['Skills'] = OrderedDict()
 OUTLINE['Skills']['Weapon Skills'] = OrderedDict()
@@ -201,15 +218,16 @@ OUTLINE['Skills']['Vagabond Skills']['Judgment'] = None
 OUTLINE['Skills']['Vagabond Skills']['Allure'] = None
 OUTLINE['Skills']['Vagabond Skills']['Edge'] = None
 OUTLINE['Skills']['Magic Skills'] = OrderedDict()
-OUTLINE['Skills']['Magic Skills']['Runekeeping'] = None
-OUTLINE['Skills']['Magic Skills']['Mentalism'] = None
-OUTLINE['Skills']['Magic Skills']['Earthcraft'] = None
+OUTLINE['Skills']['Magic Skills']['Earthcalling'] = None
+OUTLINE['Skills']['Magic Skills']['Spiritwresting'] = None
 OUTLINE['Longblades Moveset'] = _process_moveset
 OUTLINE['Axes Moveset'] = _process_moveset
 OUTLINE['Blunt Weapons Moveset'] = _process_moveset
 OUTLINE['Polearms Moveset'] = _process_moveset
 OUTLINE['Ranged Weapons Moveset'] = _process_moveset
 OUTLINE['Shortblades Moveset'] = _process_moveset
+OUTLINE['Earthcalling Spellbook'] = None
+OUTLINE['Spiritwresting Spellbook'] = None
 
 
 def parse_data(log):
@@ -219,11 +237,18 @@ def parse_data(log):
     make_dir(RULEBOOK_PATH)
 
     # We need to save to docx and then convert to plaintext so that we can preserve bullet points
-    content = docx2python.docx2python(DATA_DOCX)
-    lines = list(docx2python.iterators.iter_paragraphs(content.document))
+    document = Document(DATA_DOCX)
 
+    lines = []
     with open(DATA_TXT, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
+        for obj in document.iter_inner_content():
+            if isinstance(obj, Paragraph):
+                f.write(obj.text + '\n')
+                lines.extend(obj.text.splitlines())
+            elif isinstance(obj, Table):
+                for cell in _iter_visual_cells(obj):
+                    f.write(cell.text + '\n')
+                    lines.extend(cell.text.splitlines())
 
     # Ignore blank lines and page breaks
     lines = [line for line in lines if line.strip() != '']
@@ -236,6 +261,8 @@ def parse_data(log):
     preface, sections = _lines_to_sections(lines, OUTLINE.keys())
 
     for section_title, section in sections.items():
+        log(f'Parsing rulebook section "{section_title}"')
+
         if isinstance(OUTLINE[section_title], Callable):
             OUTLINE[section_title](log, section_title, section)
             continue
@@ -245,7 +272,7 @@ def parse_data(log):
             f.write(SECTION_HEADER.format(name=section_title, level='h2'))
             if preface is not None:
                 _write_section(f, preface)
-            _process_subsection(f, OUTLINE[section_title], section, depth=3)
+            _process_subsection(log, f, OUTLINE[section_title], section, depth=3)
 
     _record_outline(OUTLINE)
 

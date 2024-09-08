@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d6"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d6"
         ]
     },
     {
@@ -25,8 +25,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d6"
+            "* +1 Accuracy Token",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -40,7 +40,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6"
+            "* Damage: 1d6"
         ]
     },
     {
@@ -54,7 +54,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6"
+            "* Damage: 3d6"
         ]
     },
     {
@@ -68,7 +68,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6"
+            "* Damage: 2d6"
         ]
     },
     {
@@ -82,9 +82,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 2d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -98,8 +98,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +2 to hit",
-            "  * Damage: 2d6"
+            "* +2 Accuracy Tokens",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -139,16 +139,16 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 4d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
         "order": "11",
         "name": "Stalwart Smite",
         "poise_requirement": "50",
-        "poise_cost": "-10",
+        "poise_cost": "-15",
         "description": [
             "An attack combined with the defense of a shield. A very efficient way to deal damage and keep your defenses up."
         ],
@@ -157,8 +157,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* You have +2 AC until the end of the next round"
+            "* Damage: 2d6",
+            "* +2 Armor Tokens"
         ]
     },
     {
@@ -172,9 +172,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* You maneuver 1 or 2 lines backward",
-            "* Until the end of this round, you have +1 AC"
+            "* Damage: 2d6",
+            "* Maneuver Backward 1 or 2",
+            "* +1 Armor Token"
         ]
     },
     {
@@ -187,9 +187,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 1 line forward",
+            "* Maneuver Forward 1",
             "* Attack",
-            "  * Damage: 1d6"
+            "* Damage: 1d6"
         ]
     },
     {
@@ -202,7 +202,8 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You have +1 to hit and +1 AC until the end of the next round"
+            "* +1 Accuracy Token",
+            "* +1 Armor Token"
         ]
     },
     {
@@ -215,7 +216,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You have +2 to hit and +2 AC until the end of the next round"
+            "* +1 Accuracy Token",
+            "* +1 Armor Token",
+            "* +1 Accuracy or Armor Token"
         ]
     },
     {
@@ -241,7 +244,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Target ally in the same line as you may maneuver 1 line forward or backward",
+            "* Target ally in the same line as you may Maneuver Forward 1 or Backward 1",
             "* Until the end of the next round, attacks against the same target ally are redirected to you"
         ]
     },
@@ -256,8 +259,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* The character that acts next has +1 to hit and +1D damage"
+            "* Damage: 2d6",
+            "* The character that acts next has +1D damage and gets +1 Accuracy Token"
         ]
     },
     {
@@ -273,7 +276,7 @@
         ],
         "effects": [
             "* If you are in the frontline, you swap positions with an ally in the backline",
-            "  * Alternatively, if you are in the backline, you swap positions with an ally in the frontline"
+            "* Alternatively, if you are in the backline, you swap positions with an ally in the frontline"
         ]
     },
     {
@@ -287,8 +290,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * This attack has +1d6 damage if this move was used during your last turn against the same target"
+            "* Damage: 2d6",
+            "* This attack has +1D damage if this move was used during your last turn against the same target"
         ]
     },
     {
@@ -302,22 +305,22 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * The target may not maneuver this round"
+            "* Damage: 2d6",
+            "* The target may not Maneuver this round"
         ]
     },
     {
         "order": "22",
         "name": "Dual Tactics",
         "poise_requirement": "None",
-        "poise_cost": "-10",
+        "poise_cost": "-15",
         "description": [
             "You and a teammate work together. A buff that effectively grants accuracy for 3 moves: one for you and 2 for an ally. With some target focusing, this accuracy bonus is improved."
         ],
         "additional_requirements": [],
         "effects": [
-            "* You an a target ally in the same line or in an adjacent line gain +1 to hit until the end of the next round",
-            "  * This bonus is increased to +2 to hit when one of you attacks a target damaged by the other in the same round"
+            "* You an a target adjacent ally gain +1 to hit until the end of the next round",
+            "* This bonus is increased to +2 to hit when one of you attacks a target damaged by the other in the same round"
         ]
     },
     {
@@ -331,8 +334,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * At the end of the round, enemies in the same line as the target take 2d6 damage"
+            "* Damage: 2d6",
+            "* At the end of the round, enemies in the same line as the target take 2d6 damage"
         ]
     },
     {
@@ -346,8 +349,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores cover from large rocks and destroys them",
-            "  * Damage: 2d6"
+            "* This attack ignores cover from large rocks and destroys them",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -363,8 +366,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * If this attack is used against a target in the midline and successfully deals damage to them, it hits all other enemies without checking against their AC"
+            "* Damage: 2d6",
+            "* If this attack is used against a target in the midline and successfully deals damage to them, it hits all other enemies"
         ]
     },
     {
@@ -380,9 +383,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6",
-            "  * The target is pushed 1 line backward.",
-            "  * If possible, a target behind the initial target is pushed 1 line backward also"
+            "* Damage: 3d6",
+            "* The target is pushed Backward 1",
+            "* If possible, a target behind the initial target is pushed Backward 1 also"
         ]
     },
     {
@@ -396,8 +399,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores the target's temporary AC bonuses",
-            "  * Damage: 2d6"
+            "* This attack ignores the target's temporary AC bonuses",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -412,7 +415,7 @@
             "* You are wearing light or heavy armor"
         ],
         "effects": [
-            "* Until the end of the next round, you ignore the effects of critical strikes against you"
+            "* Ignore the effects of the next Critical Strike against you this combat"
         ]
     },
     {
@@ -426,9 +429,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * The target loses 5 poise",
-            "    * If the target has already acted this round, they lose 10 poise instead"
+            "* Damage: 1d6",
+            "* The target loses 5 poise",
+            "* If the target has already acted this round, they lose 10 poise instead"
         ]
     },
     {
@@ -442,9 +445,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * If this attack is used against a target that attacked you this round, it deals +2d6 damage.",
-            "    * If the target scored a critical strike when they attacked you, this attack deals +3d6 damage instead"
+            "* Damage: 1d6",
+            "* If this attack is used against a target that attacked you this round, it deals +2d6 damage.",
+            "* If the target scored a critical strike when they attacked you, this attack deals +3d6 damage instead"
         ]
     },
     {
@@ -458,8 +461,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack deals +2d6 damage if an ally in the same line cast a spell this round."
+            "* Damage: 1d6",
+            "* This attack deals +2d6 damage if an ally in the same line cast a spell this round."
         ]
     },
     {
@@ -486,9 +489,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * Roll a d6:",
-            "    * On 6 - Target is stunned"
+            "* Damage: 1d6",
+            "* Roll a d6:",
+            "* On 6 - Target is stunned"
         ]
     },
     {
@@ -514,7 +517,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Until the end of the next round, you cannot be forced to maneuver by an enemy's attack"
+            "* Until the end of the next round, you cannot be pushed"
         ]
     },
     {
@@ -527,7 +530,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Target enemy maneuvers 1 line forward"
+            "* Target enemy Maneuvers Forward 1"
         ]
     },
     {
@@ -541,8 +544,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack has +1 to hit and +2d6 damage if the target is wielding a ranged weapon"
+            "* Damage: 1d6",
+            "* This attack has +1 to hit and +2d6 damage if the target is wielding a ranged weapon"
         ]
     },
     {
@@ -556,8 +559,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * The target is pushed 1 line backward"
+            "* Damage: 1d6",
+            "* The target is pushed Backward 1"
         ]
     },
     {
@@ -571,8 +574,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Target has -1 to hit until the end of the round"
+            "* Damage: 2d6",
+            "* Target has -1 to hit until the end of the round"
         ]
     },
     {
@@ -586,9 +589,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * Target loses 5 poise",
-            "  * If you have 10 health or less, this attack deals +2d6 damage and the target loses an additional 5 poise. The target is also inflicted with -1D until the end of the next round."
+            "* Damage: 1d6",
+            "* Target loses 5 poise",
+            "* If you have 20 health or less, this attack deals +2d6 damage and the target loses an additional 5 poise. The target is also inflicted with -1D until the end of the next round."
         ]
     },
     {
@@ -597,14 +600,14 @@
         "poise_requirement": "90",
         "poise_cost": "-30",
         "description": [
-            "Your weapon is like a falling comet. An alternative to Gigabreak that sacrifices damage for a chance to stun"
+            "Your weapon is like a falling comet. An alternative to Gigabreak that sacrifices damage for a chance to stun."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Roll a d6:",
-            "    * On 5 or 6 - Target is stunned"
+            "* Damage: 2d6",
+            "* Roll a d6:",
+            "* On 5 or 6 - Target is stunned"
         ]
     },
     {
@@ -617,8 +620,8 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You have +1 AC until the beginning of your next turn",
-            "* Until the beginning of your next turn, when an attack against you fails to beat your AC, you gain +5 poise"
+            "* +1 Armor Token",
+            "* Until the beginning of your next turn, when an attack against you fails to beat your AC, you gain +10 poise"
         ]
     },
     {
@@ -634,8 +637,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * Until the end of the next round, the target's attacks that are not directed at you cause them to take 2d6 damage and lose 10 poise"
+            "* Damage: 1d6",
+            "* Until the end of the next round, the target's attacks that are not directed at you cause them to take 2d6 damage and lose 10 poise"
         ]
     },
     {
@@ -649,8 +652,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * The next ally to attack the target gains one level of advantage on their attack; if their attack is a critical strike, you and that ally gain +20 poise"
+            "* Damage: 2d6",
+            "* This round, the next ally to attack the target you hit gains one level of advantage on their attack; if their attack is a critical strike, you and that ally gain +20 poise"
         ]
     },
     {
@@ -666,8 +669,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6",
-            "  * Target is pushed to the backline"
+            "* Damage: 3d6",
+            "* Target is pushed to the backline"
         ]
     },
     {
@@ -681,8 +684,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * If you are standing in snow, this attack inflicts -1 to hit to all enemies without checking against their AC"
+            "* Damage: 2d6",
+            "* If you are standing in snow, this attack inflicts -1 to hit to all enemies until the end of the round"
         ]
     },
     {
@@ -696,15 +699,15 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Target fails to cast spells this round"
+            "* Damage: 2d6",
+            "* Target fails to cast spells this round"
         ]
     },
     {
         "order": "48",
         "name": "Regroup",
         "poise_requirement": "None",
-        "poise_cost": "-15",
+        "poise_cost": "-10",
         "description": [
             "You call allies to you. A useful way to move multiple allies."
         ],
@@ -722,7 +725,7 @@
         "poise_requirement": "None",
         "poise_cost": "-20",
         "description": [
-            "You invoke the true power of your armor. A way to temporarily improve your natural defenses from your gear"
+            "You invoke the true power of your armor. A way to temporarily improve your natural defenses from your gear."
         ],
         "additional_requirements": [],
         "effects": [
@@ -735,15 +738,15 @@
         "poise_requirement": "100",
         "poise_cost": "-5",
         "description": [
-            "You show why you were chosen by the gods. A powerful recovery option that can be used once per day"
+            "You show why you were chosen by the gods. A powerful recovery option that can be used once per day."
         ],
         "additional_requirements": [
             "* You have rested at least once since you last executed this move"
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6",
-            "  * Critical Strike: 2x Damage on 12",
+            "* Damage: 4d6",
+            "* Critical Strike: 2x Damage on 12",
             "* The next attack that hits you is fully negated; until that occurs, you recover 10% of your maximum health at the end of each of your turns"
         ]
     }

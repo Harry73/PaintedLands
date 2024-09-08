@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d8"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d8"
         ]
     },
     {
@@ -25,8 +25,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 2d8"
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -35,13 +35,13 @@
         "poise_requirement": "None",
         "poise_cost": "+10",
         "description": [
-            "An balanced attack with your hand up the axe's shaft. Your basic poise generation move."
+            "A balanced attack with your hand up the axe's shaft. Your basic poise generation move."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 1d8"
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 1d8"
         ]
     },
     {
@@ -55,10 +55,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -72,14 +72,14 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8"
+            "* Damage: 1d8"
         ]
     },
     {
         "order": "6",
         "name": "Focus Energy",
         "poise_requirement": "None",
-        "poise_cost": "+15",
+        "poise_cost": "+20",
         "description": [
             "You gather energy to use later. The highest poise generation move in the moveset, forcing you to essentially skip your turn."
         ],
@@ -99,8 +99,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "* Gain +1 AC until the beginning of your next turn"
+            "* Damage: 2d8",
+            "* +1 Armor Token"
         ]
     },
     {
@@ -116,9 +116,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage"
         ]
     },
     {
@@ -132,11 +132,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 3x damage",
-            "    * On Attack Roll of 10 - Deal 2x damage"
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 3x damage",
+            "* On Attack Roll of 10 - Deal 2x damage"
         ]
     },
     {
@@ -150,11 +150,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 3x damage",
-            "    * On Attack Roll of 10 - Deal 2x damage"
+            "* Damage: 4d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 3x damage",
+            "* On Attack Roll of 10 - Deal 2x damage"
         ]
     },
     {
@@ -167,12 +167,12 @@
         ],
         "additional_requirements": [],
         "effects": [
+            "* Maneuver Forward 1 or 2",
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "* You maneuver 1 or 2 lines forward"
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -186,8 +186,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "* You maneuver 1 line backward"
+            "* Damage: 1d8",
+            "* Maneuver Backward 1"
         ]
     },
     {
@@ -200,7 +200,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 1 line forward"
+            "* Maneuver Forward 1"
         ]
     },
     {
@@ -213,7 +213,8 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack gains +1 to hit and +1d8 damage"
+            "* +1 Accuracy Token",
+            "* Your next attack gains +1D damage"
         ]
     },
     {
@@ -226,7 +227,8 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack gains +2 to hit and +2d8 damage"
+            "* +2 Accuracy Tokens",
+            "* Your next attack gains +2D damage"
         ]
     },
     {
@@ -240,10 +242,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
             "* If this move kills an enemy, ignore this move's poise cost and instead gain +20 poise"
         ]
     },
@@ -258,17 +260,17 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies in the frontline and midline",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* This attack hits all enemies in the frontline and midline",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
         "order": "18",
         "name": "Tomahawk Toss",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack on a distant target with a thrown axe. A respectable ranged option for axe users."
@@ -276,25 +278,25 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
         "order": "19",
         "name": "Chaser Cleave",
         "poise_requirement": "None",
-        "poise_cost": "-15",
+        "poise_cost": "-20",
         "description": [
             "An attack on a fleeing enemy. A strong option to prevent enemies from maneuvering backward."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * An enemy who takes damage from this move cannot maneuver backward this round"
+            "* Damage: 2d8",
+            "* An enemy who takes damage from this move cannot maneuver backward this round"
         ]
     },
     {
@@ -309,15 +311,15 @@
         "effects": [
             "* If you successfully executed a critical strike during your last turn, ignore this move's poise cost",
             "* Attack",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill"
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill"
         ]
     },
     {
         "order": "21",
         "name": "Shredding Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack to tear at armor. A strong move to set up for future turns against targets with high AC."
@@ -325,8 +327,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * The target has -1 AC until the end of the next round"
+            "* Damage: 2d8",
+            "* The target has -1 AC until the end of the next round"
         ]
     },
     {
@@ -335,21 +337,21 @@
         "poise_requirement": "80",
         "poise_cost": "-20",
         "description": [
-            "An attack strong enough to split a shield in half. If you can manage to get to high poise, you can permanently deal with an enemy's shield"
+            "An attack strong enough to split a shield in half. If you can manage to get to high poise, you can permanently deal with an enemy's shield."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "  * The target's shield is destroyed"
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage",
+            "* The target's shield is destroyed"
         ]
     },
     {
         "order": "23",
         "name": "Timber Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "40",
         "poise_cost": "-15",
         "description": [
             "An attack that chops down trees. Useful in forests where many enemies will hide behind them."
@@ -357,8 +359,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores cover provided by trees or other similar narrow wooden constructs and destroys them",
-            "  * Damage: 2d8"
+            "* This attack ignores cover provided by trees or other similar narrow wooden constructs and destroys them",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -374,10 +376,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 3x damage",
-            "  * The target has -1 AC until the end of the next round"
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 3x damage",
+            "* The target has -1 AC until the end of the next round"
         ]
     },
     {
@@ -393,16 +395,16 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage",
-            "  * This attack hits all enemies in the backline, ignoring positional disadvantage"
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage",
+            "* This attack hits all enemies in the backline, ignoring positional disadvantage"
         ]
     },
     {
         "order": "26",
         "name": "Tendon Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "60",
         "poise_cost": "-15",
         "description": [
             "An attack at the vulnerable muscles of the leg. The standard poise damage move for axes, although it requires some luck."
@@ -410,11 +412,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Target loses 15 poise",
-            "    * On Attack Roll of 11 - Target loses 10 poise",
-            "    * On Attack Roll of 10 - Target loses 5 poise"
+            "* Damage: 1d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Target loses 15 poise",
+            "* On Attack Roll of 11 - Target loses 10 poise",
+            "* On Attack Roll of 10 - Target loses 5 poise"
         ]
     },
     {
@@ -428,16 +430,16 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * If the last attack you received was a critical strike, this attack becomes a critical strike",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage"
+            "* Damage: 2d8",
+            "* If the last attack you received was a critical strike, this attack becomes a critical strike if it hits",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage"
         ]
     },
     {
         "order": "28",
         "name": "Butcher's Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "40",
         "poise_cost": "-15",
         "description": [
             "An attack that kills animals. One of the few moves with special effectiveness against mounted enemies."
@@ -445,8 +447,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * If the target is mounted, deal an additional +2d8 damage and kill the target's mount"
+            "* Damage: 1d8",
+            "* If the target is mounted, deal an additional +2d8 damage and kill the target's mount"
         ]
     },
     {
@@ -459,13 +461,13 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Until you fall below 50 poise, you have -1 AC and +1d8 damage"
+            "* Until you fall below 50 poise, you have -1 AC and +1D damage"
         ]
     },
     {
         "order": "30",
         "name": "Endreaver",
-        "poise_requirement": "None",
+        "poise_requirement": "70",
         "poise_cost": "-15",
         "description": [
             "An attack to end a fight. A powerful move to use on the final enemy, or in a fight with only one enemy to begin with."
@@ -473,10 +475,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * If there is only one enemy present in combat, this attack deals an additional +3d8 damage and has the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 10, 11, or 12 - Deal 3x damage"
+            "* Damage: 1d8",
+            "* If there is only one enemy present in combat, this attack deals an additional +2d8 damage and has the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 10, 11, or 12 - Deal 3x damage"
         ]
     },
     {
@@ -495,7 +497,7 @@
     {
         "order": "32",
         "name": "Cleave the Ranks",
-        "poise_requirement": "None",
+        "poise_requirement": "60",
         "poise_cost": "-20",
         "description": [
             "An attack at an enemy and his support. A useful way of punishing enemies with strong supportive builds."
@@ -503,14 +505,14 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d8",
-            "  * If the target used a move or spell that granted benefits to another target, this attack hits both of them"
+            "* Damage: 3d8",
+            "* If the target used a move or spell that granted benefits to another target, this attack hits both of them"
         ]
     },
     {
         "order": "33",
         "name": "Lancebreaker",
-        "poise_requirement": "None",
+        "poise_requirement": "60",
         "poise_cost": "-15",
         "description": [
             "An attack that leverages the axe's savage superiority over the polearm. A powerful move to counter enemy polearm users."
@@ -518,14 +520,14 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * This attack has +1 to hit and +2d8 damage if the target is wielding a polearm"
+            "* Damage: 1d8",
+            "* This attack has +1 to hit and +2d8 damage if the target is wielding a polearm"
         ]
     },
     {
         "order": "34",
         "name": "Undercut",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack at the legs. A rare exploit of a height disadvantage."
@@ -535,8 +537,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * If the target attempts to maneuver this round, they fail and lose 20 poise"
+            "* Damage: 2d8",
+            "* If the target attempts to maneuver this round, they fail and lose 20 poise"
         ]
     },
     {
@@ -550,12 +552,12 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "    * On Attack Roll of 10 - Deal +1d8 damage",
-            "  * This attack deals half damage to all other enemies in the target's line. If this attack critically strikes, it deals full damage to all other enemies in the target's line instead."
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* On Attack Roll of 10 - Deal +1d8 damage",
+            "* This attack deals half damage to all other enemies in the target's line. If this attack critically strikes, it deals full damage to all other enemies in the target's line instead."
         ]
     },
     {
@@ -569,10 +571,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * If the target executed a non-attack move this round, this attack deals +2d8 damage and has the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 10, 11, or 12 - Deal 2x damage"
+            "* Damage: 1d8",
+            "* If the target executed a non-attack move this round, this attack deals +2d8 damage and has the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 10, 11, or 12 - Deal 2x damage"
         ]
     },
     {
@@ -586,15 +588,15 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - You heal for 1d8 health"
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - You heal for 1d8 health"
         ]
     },
     {
         "order": "38",
         "name": "Hook Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack that pulls an enemy to face you. A strong forced movement attack that makes an enemy vulnerable."
@@ -605,14 +607,14 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * The target is pulled 1 line forward"
+            "* Damage: 2d8",
+            "* The target is pulled 1 line forward"
         ]
     },
     {
         "order": "39",
         "name": "Grievous Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "40",
         "poise_cost": "-15",
         "description": [
             "An attack that interferes with healing. Useful to punish enemies with natural or magical healing moves."
@@ -620,14 +622,14 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * The target cannot benefit from healing until the end of the next round"
+            "* Damage: 2d8",
+            "* The target cannot benefit from healing until the end of the next round"
         ]
     },
     {
         "order": "40",
         "name": "Bloody Fuller",
-        "poise_requirement": "None",
+        "poise_requirement": "80",
         "poise_cost": "-15",
         "description": [
             "An attack invented by a god of war. If you have a lot of excess poise, this move can be a great way to try and ensure a critical strike."
@@ -635,10 +637,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * While executing this move, you may spend additional poise. For every 15 poise you spend this way, this attack's critical strike range increases by one value",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage"
+            "* While executing this move, you may spend additional poise. For every 5 poise you spend this way, this attack's critical strike range increases by one value",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage"
         ]
     },
     {
@@ -654,11 +656,12 @@
         ],
         "effects": [
             "* Choose a target. Until you fall below 50 poise, you have the following:",
-            "  * You have +1d8 damage on the target",
-            "  * You have -1d8 damage on other enemies",
-            "  * The target has +1d8 damage on you",
-            "  * The target has -1d8 damage on other allies",
-            "  * The target may not swap weapons"
+            "* You have +1D damage on the target",
+            "* You have -1D damage on other enemies",
+            "* The target has +1D damage on you",
+            "* The target has -1D damage on other allies",
+            "* The target may not swap weapons or willingly Maneuver",
+            "* You may not swap weapons or willingly Maneuver"
         ]
     },
     {
@@ -670,16 +673,16 @@
             "A powerful attack that forces the enemy back. An attack that can completely redefine the positions of all enemy lines."
         ],
         "additional_requirements": [
-            "* Your target is in the frontline"
+            "* None"
         ],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies in the frontline",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "  * All enemies who take damage from this attack are pushed backward 1 line"
+            "* This attack hits all enemies in the frontline",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* All enemies who take damage from this attack are pushed backward 1 line"
         ]
     },
     {
@@ -692,7 +695,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Until the end of the next round, enemy attacks that target you that would cause you to lose poise fail. Instead, those enemies take 2d8 damage"
+            "* Until the end of the next round, enemy attacks that target you that would cause you to lose poise fail to affect your poise (they still deal damage). Instead, those enemies take 2d8 damage"
         ]
     },
     {
@@ -705,7 +708,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Until the beginning of your next turn, attacks that hit you that deal at least 1 damage cause your next attack to have +1d8 damage"
+            "* Until the beginning of your next turn, attacks that hit you that deal at least 1 damage cause your next attack to have +1D damage"
         ]
     },
     {
@@ -724,7 +727,7 @@
     {
         "order": "46",
         "name": "Weakening Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-20",
         "description": [
             "An attack that weakens the entire frontline. A powerful AOE poise damaging move."
@@ -732,9 +735,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies in the frontline",
-            "  * Damage: 1d8",
-            "  * All targets that take damage from this attack lose 5 poise"
+            "* This attack hits all enemies in the frontline",
+            "* Damage: 1d8",
+            "* All targets lose 5 poise"
         ]
     },
     {
@@ -748,18 +751,18 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "  * Until the next time you maneuver, you have -1d8 damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* Until the next time you maneuver, you have -1D damage"
         ]
     },
     {
         "order": "48",
         "name": "Mageslayer",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack against a spellcaster. A strong way to punish enemies who often cast spells."
@@ -767,14 +770,14 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * This attack has +1 to hit and +2d8 damage if the target cast a spell this round"
+            "* Damage: 1d8",
+            "* This attack has +1 to hit and +2d8 damage if the target cast a spell this round"
         ]
     },
     {
         "order": "49",
         "name": "Serrated Cleave",
-        "poise_requirement": "None",
+        "poise_requirement": "50",
         "poise_cost": "-15",
         "description": [
             "An attack that draws blood. The moveset's only option for damage over time."
@@ -782,8 +785,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * Until the end of the next round, the target takes 1d8 damage at the end of each round."
+            "* Damage: 1d8",
+            "* Until the end of the next round, the target takes 1d8 damage at the end of each round."
         ]
     },
     {
@@ -799,13 +802,13 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 3x damage",
-            "    * On Attack Roll of 10 - Deal 2x damage",
-            "    * On Attack Roll of 9 - Deal +1d8 damage",
-            "  * Your next attack gains two levels of advantage and hits all enemies in combat"
+            "* Damage: 4d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 3x damage",
+            "* On Attack Roll of 10 - Deal 2x damage",
+            "* On Attack Roll of 9 - Deal +1d8 damage",
+            "* Your next attack gains two levels of advantage and hits all enemies in combat"
         ]
     }
 ]

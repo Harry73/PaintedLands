@@ -8,9 +8,12 @@
     ],
     "Setting": null,
     "System Basics": [
-        "Skill Checks",
+        "Skill Tests",
         "Combat",
-        "Position"
+        "Attack Roll Calculations",
+        "Position",
+        "Magic",
+        "Poise Rerolls and Rests"
     ],
     "Character Creation": null,
     "Skills": [
@@ -23,5 +26,7 @@
     "Blunt Weapons Moveset": null,
     "Polearms Moveset": null,
     "Ranged Weapons Moveset": null,
-    "Shortblades Moveset": null
+    "Shortblades Moveset": null,
+    "Earthcalling Spellbook": null,
+    "Spiritwresting Spellbook": null
 }

@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d4"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d4"
         ]
     },
     {
@@ -25,9 +25,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -41,9 +41,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -57,11 +57,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage",
-            "    * On Attack Roll of 11 - Deal 3x damage",
-            "    * On Attack Roll of 10 - Deal 2x damage"
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage",
+            "* On Attack Roll of 11 - Deal 3x damage",
+            "* On Attack Roll of 10 - Deal 2x damage"
         ]
     },
     {
@@ -75,8 +75,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Until the end of the next round, the target bleeds for 1d4 damage at the end of each round"
+            "* Damage: 1d4",
+            "* Inflict Bleed 1d4"
         ]
     },
     {
@@ -90,10 +90,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* +1 Accuracy Token",
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -106,7 +106,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver into a special position that provides cover, ignoring adjacency and special entry restrictions"
+            "* You Maneuver into a Special Position that provides cover, ignoring adjacency and special entry restrictions"
         ]
     },
     {
@@ -135,9 +135,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill"
         ]
     },
     {
@@ -151,12 +151,12 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 4x damage",
-            "    * On Attack Roll of 10 - Deal 3x damage",
-            "    * On Attack Roll of 9 - Deal 2x damage"
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 4x damage",
+            "* On Attack Roll of 10 - Deal 3x damage",
+            "* On Attack Roll of 9 - Deal 2x damage"
         ]
     },
     {
@@ -169,9 +169,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver up to 2 lines forward",
+            "* Maneuver Forward 1 or 2",
             "* Attack",
-            "  * Damage: 2d4"
+            "* Damage: 2d4"
         ]
     },
     {
@@ -185,8 +185,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "* You maneuver up to 2 lines backward"
+            "* Damage: 2d4",
+            "* Maneuver Backward 1 or 2"
         ]
     },
     {
@@ -202,10 +202,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -218,7 +218,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 1 line forward"
+            "* Maneuver Forward 1"
         ]
     },
     {
@@ -231,7 +231,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Choose a target enemy. At the end of the round, you gain poise equal to 5 times the amount of damage they take from bleeding"
+            "* Choose a target enemy. At the end of this round, you gain poise equal to 5 times the amount of damage they take from Bleed"
         ]
     },
     {
@@ -257,7 +257,8 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Until the end of the next round, you have +1 AC and enemy moves/spells cannot prevent you from maneuvering"
+            "* +1 Armor Token",
+            "* Your Maneuvers cannot be prevented by moves or spell effects until the end of the next round"
         ]
     },
     {
@@ -286,8 +287,8 @@
         ],
         "effects": [
             "* Until the beginning of your next turn, whenever target ally in the frontline is hit by an attack, you attack the enemy that attacked the target, dealing 2d4 damage with the following:",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage"
         ]
     },
     {
@@ -301,11 +302,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "  * If your target attacked an ally in a line behind you this round, this attack has +1 to hit and +2d4 damage"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* If your target attacked an ally in a line behind you this round, this attack has +1 to hit and +2d4 damage"
         ]
     },
     {
@@ -321,9 +322,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage"
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage"
         ]
     },
     {
@@ -339,9 +340,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage"
         ]
     },
     {
@@ -357,12 +358,12 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 4x damage",
-            "    * On Attack Roll of 10 - Deal 3x damage",
-            "    * On Attack Roll of 9 - Deal 2x damage"
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 4x damage",
+            "* On Attack Roll of 10 - Deal 3x damage",
+            "* On Attack Roll of 9 - Deal 2x damage"
         ]
     },
     {
@@ -376,8 +377,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Target loses 5 poise; if they bled since their last turn, they lose 10 poise instead"
+            "* Damage: 2d4",
+            "* Target loses 5 poise; if they took damage from Bleed since their last turn, they lose 10 poise instead"
         ]
     },
     {
@@ -393,10 +394,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 3x damage",
-            "* You may maneuver to any low ground position; if you do, your next attack has +1 to hit"
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 3x damage",
+            "* You may Maneuver to any low ground position; if you do, you gain +1 Accuracy Token"
         ]
     },
     {
@@ -410,10 +411,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage"
         ]
     },
     {
@@ -427,10 +428,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * If the target has not acted yet this combat, this attack has +1 to hit, +2d4 damage, and has the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 9, 10, 11, or 12 - Deal 2x damage"
+            "* Damage: 1d4",
+            "* If the target has not acted yet this combat, this attack has +1 to hit, +2d4 damage, and has the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 9, 10, 11, or 12 - Deal 2x damage"
         ]
     },
     {
@@ -443,7 +444,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack has +1d4 damage and +1d4 critical strike damage"
+            "* Your next attack has +1D damage on a regular hit or +2D damage on a critical strike"
         ]
     },
     {
@@ -456,7 +457,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack has +2d4 damage and +2d4 critical strike damage"
+            "* Your next attack has +2D damage on a regular hit or +3D damage on a critical strike"
         ]
     },
     {
@@ -470,8 +471,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Until the end of the next round, the target bleeds for 2d4 damage at the end of each round"
+            "* Damage: 2d4",
+            "* Inflict Bleed 2d4"
         ]
     },
     {
@@ -487,9 +488,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Instant Kill",
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Instant Kill",
             "* If this attack kills the target, you become hidden in your current position until the end of the current round"
         ]
     },
@@ -506,9 +507,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -522,10 +523,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage",
-            "  * You automatically repeat this attack during your next turn on the same target instead of taking an action"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage",
+            "* You automatically repeat this attack during your next turn on the same target instead of taking an action"
         ]
     },
     {
@@ -552,7 +553,7 @@
         "additional_requirements": [],
         "effects": [
             "* Until your poise falls below 50, your critical strikes have:",
-            "  * Become hidden in your current position until the end of the next round"
+            "* Become hidden in your current position until the end of the next round"
         ]
     },
     {
@@ -566,10 +567,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 3x damage",
-            "  * This attack gains +2d4 damage and its minimum critical strike requirement is expanded by 2 if it is nighttime"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 3x damage",
+            "* This attack gains +2d4 damage and its minimum critical strike requirement is expanded by 2 if it is nighttime"
         ]
     },
     {
@@ -583,10 +584,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "  * This attack has +2d4 damage and causes the target to lose 5 poise if you maneuvered due to another character's move this round."
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage",
+            "* This attack has +2d4 damage and causes the target to lose 5 poise if you maneuvered due to another character's move this round."
         ]
     },
     {
@@ -600,10 +601,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "  * This attack has +1 to hit and +2d4 damage if the target is wielding a blunt weapon"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage",
+            "* This attack has +1 to hit and +2d4 damage if the target is wielding a blunt weapon"
         ]
     },
     {
@@ -617,11 +618,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "  * This attack has +2d4 damage if the target cast a spell this round",
-            "  * The target fails to cast spells until the end of the next round"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* This attack has +2d4 damage if the target cast a spell this round",
+            "* The target fails to cast spells until the end of the next round"
         ]
     },
     {
@@ -635,10 +636,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage"
+            "* This attack hits all enemies",
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage"
         ]
     },
     {
@@ -652,11 +653,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 3x damage",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "  * This attack has +2 to hit and +2d4 damage if your last action was a weapon swap"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 3x damage",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* This attack has +2 to hit and +2d4 damage if your last action was a weapon swap"
         ]
     },
     {
@@ -670,11 +671,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Gain 15 poise",
-            "    * On Attack Roll of 11 - Gain 10 poise",
-            "    * On Attack Roll of 10 - Gain 5 poise"
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Gain 15 poise",
+            "* On Attack Roll of 11 - Gain 10 poise",
+            "* On Attack Roll of 10 - Gain 5 poise"
         ]
     },
     {
@@ -688,7 +689,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
+            "* Damage: 1d4",
             "* The next attack this round that targets you is redirected to a target ally in the same line"
         ]
     },
@@ -702,7 +703,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next move that applies a bleed effect applies twice as much bleed instead"
+            "* Your next move that applies a Bleed effect applies twice as much Bleed instead"
         ]
     },
     {
@@ -716,9 +717,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage"
+            "* Damage: 1d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage"
         ]
     },
     {
@@ -732,8 +733,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * This attack has +1d4 damage for every 5 poise the target gained this round"
+            "* Damage: 1d4",
+            "* This attack has +1d4 damage for every 5 poise the target gained this round"
         ]
     },
     {
@@ -747,8 +748,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies",
-            "  * Until the end of the round, targets bleed for 1d4 damage at the end of each round"
+            "* This attack hits all enemies",
+            "* Inflict Bleed 1d4"
         ]
     },
     {
@@ -762,10 +763,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 4x damage",
-            "  * When you execute this move, spend an additional 10 poise any number of times, and expand this attacks minimum critical strike requirement by 1 for each time you do so"
+            "* When you execute this move, spend an additional 10 poise any number of times, and expand this attack's minimum critical strike requirement by 1 for each time you do so",
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 4x damage"
         ]
     },
     {
@@ -779,11 +780,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll fo 11 - Deal 4x damage",
-            "  * If this attack kills the target, your poise becomes 90"
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll fo 11 - Deal 4x damage",
+            "* If this attack kills the target, your poise becomes 90"
         ]
     },
     {
@@ -799,12 +800,12 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 4x damage",
-            "    * On Attack Roll of 10 - Deal 3x damage",
-            "    * On Attack Roll of 9 - Deal 2x damage",
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 4x damage",
+            "* On Attack Roll of 10 - Deal 3x damage",
+            "* On Attack Roll of 9 - Deal 2x damage",
             "* Your next attack has its minimum critical strike requirement expanded by 2; if that attack is a critical strike, it refunds its poise cost and this effect occurs again"
         ]
     }

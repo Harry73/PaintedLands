@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d6"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d6"
         ]
     },
     {
@@ -25,7 +25,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6"
+            "* Damage: 2d6"
         ]
     },
     {
@@ -39,7 +39,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6"
+            "* Damage: 1d6"
         ]
     },
     {
@@ -53,9 +53,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* Damage: 3d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -69,8 +69,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 1d6"
+            "* +1 Accuracy Token",
+            "* Damage: 1d6"
         ]
     },
     {
@@ -84,8 +84,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d6"
+            "* +1 Accuracy Token",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -99,8 +99,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 3d6"
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 3d6"
         ]
     },
     {
@@ -125,7 +125,7 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6"
+            "* Damage: 4d6"
         ]
     },
     {
@@ -139,10 +139,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* Damage: 4d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -158,14 +158,14 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6"
+            "* Damage: 2d6"
         ]
     },
     {
         "order": "12",
         "name": "Sentinel's Slash",
         "poise_requirement": "None",
-        "poise_cost": "-10",
+        "poise_cost": "-15",
         "description": [
             "An attack from behind the safety of a shield. A basic attack if you are wielding a shield, compounding on its defensive benefits"
         ],
@@ -174,8 +174,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* Gain +1 AC until the beginning of your next turn"
+            "* Damage: 2d6",
+            "* +1 Armor Token"
         ]
     },
     {
@@ -188,9 +188,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 1 line forward",
+            "* Maneuver Forward 1",
             "* Attack",
-            "  * Damage: 1d6"
+            "* Damage: 1d6"
         ]
     },
     {
@@ -203,9 +203,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 1 line backward",
+            "* Maneuver Backward 1",
             "* Attack",
-            "  * Damage: 1d6"
+            "* Damage: 1d6"
         ]
     },
     {
@@ -218,9 +218,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 2 lines forward",
+            "* Maneuver Forward 2",
             "* Attack",
-            "  * Damage: 2d6"
+            "* Damage: 2d6"
         ]
     },
     {
@@ -233,9 +233,9 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* You maneuver 2 lines backward",
+            "* Maneuver Backward 2",
             "* Attack",
-            "  * Damage: 2d6"
+            "* Damage: 2d6"
         ]
     },
     {
@@ -251,8 +251,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d6"
+            "* +1 Accuracy Token",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -268,8 +268,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 1d6"
+            "* +1 Accuracy Token",
+            "* Damage: 1d6"
         ]
     },
     {
@@ -281,13 +281,13 @@
             "An attack from a hiding place. A more efficient version of Overhead Slash granted by seeking cover beforehand."
         ],
         "additional_requirements": [
-            "* Must be hidden behind cover"
+            "* Must be Hidden"
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - 2x Damage"
+            "* Damage: 3d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - 2x Damage"
         ]
     },
     {
@@ -301,8 +301,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack gains +1 to hit and +1d6 damage, up to a maximum of +2 to hit and +2d6 damage, for every time it has been used in succession"
+            "* Damage: 1d6",
+            "* This attack gains +1 to hit and +1d6 damage, up to a maximum of +2 to hit and +2d6 damage, for every time it has been used in succession"
         ]
     },
     {
@@ -314,12 +314,12 @@
             "An inspiring attack. A strong option to support an ally if your own poise is high."
         ],
         "additional_requirements": [
-            "* You have at least 1 adjacent ally to target"
+            "* You have at least 1 adjacent ally"
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* Target adjacent ally gains +1D damage and +1 to hit until the end of the next round"
+            "* Damage: 2d6",
+            "* An adjacent ally gets +1D damage on their next hit, and they also get +1 Accuracy Token"
         ]
     },
     {
@@ -331,10 +331,10 @@
             "You take a moment's reprieve with a close ally. A weak poise generating move, but with the side effect of granting some poise to an ally."
         ],
         "additional_requirements": [
-            "* You have at least 1 adjacent ally to target"
+            "* You have at least 1 adjacent ally"
         ],
         "effects": [
-            "* Target adjacent ally gains +5 poise"
+            "* An adjacent ally gains +5 poise"
         ]
     },
     {
@@ -346,10 +346,10 @@
             "A defensive move to protect a friend. A reliable if brief way to tank for a key member of your party."
         ],
         "additional_requirements": [
-            "* You have at least 1 ally in the same line or in the line behind you to target"
+            "* You have at least 1 adjacent ally that is not in a line in front of you or in a Special Position"
         ],
         "effects": [
-            "* The next attack that targets your targeted ally is redirected to target you instead. This effect ends at the end of the next round."
+            "* The next attack that targets the chosen ally is redirected to target you instead. This effect ends at the end of the next round."
         ]
     },
     {
@@ -363,8 +363,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores cover provided by tall grass or brushes, and destroys Special Positions associated with these",
-            "  * Damage: 2d6"
+            "* This attack ignores cover provided by tall grass or brushes, and destroys Special Positions associated with these",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -378,8 +378,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack deals an additional +2d6 damage if the target is wearing heavy armor"
+            "* Damage: 1d6",
+            "* This attack deals an additional +2d6 damage if the target is wearing heavy armor"
         ]
     },
     {
@@ -393,8 +393,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * The target loses 10 poise"
+            "* Damage: 1d6",
+            "* The target loses 10 poise"
         ]
     },
     {
@@ -408,8 +408,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * This attack hits all enemies in the frontline"
+            "* Damage: 2d6",
+            "* This attack hits all enemies in the frontline"
         ]
     },
     {
@@ -423,8 +423,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack gains 1 level of advantage against a target who is not adjacent to you",
-            "  * Damage: 2d6"
+            "* This attack gains 1 level of advantage against a target who is not adjacent to you",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -438,9 +438,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Roll a d6",
-            "    * On 6 - Target is stunned"
+            "* Damage: 2d6",
+            "* Roll a d6",
+            "* On 6 - Target is stunned"
         ]
     },
     {
@@ -454,10 +454,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "  * If this is the first turn of the round, this attack has +1 to hit and +2d6 damage"
+            "* Damage: 1d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage",
+            "* If this is the first turn of the round, this attack grants +1 Accuracy Token and has +2d6 damage"
         ]
     },
     {
@@ -471,8 +471,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * This attack hits an additional target in the line behind your initial target"
+            "* Damage: 2d6",
+            "* This attack hits an additional target in the line behind your initial target"
         ]
     },
     {
@@ -486,8 +486,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack has +1 to hit and +2d6 damage if the target wields an axe"
+            "* Damage: 1d6",
+            "* This attack has +1 to hit and +2d6 damage if the target wields an axe"
         ]
     },
     {
@@ -503,10 +503,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "    * On Attack Roll of 11 - Deal +1d6 damage"
+            "* Damage: 2d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage",
+            "* On Attack Roll of 11 - Deal +1d6 damage"
         ]
     },
     {
@@ -522,8 +522,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: +2 to hit",
-            "  * Damage: 2d6"
+            "* Accuracy Modifier: +2 to hit",
+            "* Damage: 2d6"
         ]
     },
     {
@@ -539,8 +539,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack deals an additional +2d6 damage and the target loses 15 poise if they maneuvered backward this round"
+            "* Damage: 1d6",
+            "* This attack deals an additional +2d6 damage and the target loses 15 poise if they maneuvered backward this round"
         ]
     },
     {
@@ -557,9 +557,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+            "* Damage: 2d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage"
         ]
     },
     {
@@ -572,10 +572,10 @@
         ],
         "additional_requirements": [
             "* You are wielding a shield",
-            "* You have at least 1 adjacent ally to target"
+            "* You have at least 1 adjacent ally"
         ],
         "effects": [
-            "* Target adjacent ally gains +1 AC until the end of the next round",
+            "* An adjacent ally gains +1 Armor Token",
             "* You have -1 AC until the end of the next round"
         ]
     },
@@ -592,7 +592,7 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6"
+            "* Damage: 3d6"
         ]
     },
     {
@@ -608,8 +608,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * The target loses 15 poise"
+            "* Damage: 2d6",
+            "* The target loses 15 poise"
         ]
     },
     {
@@ -621,14 +621,14 @@
             "An attack to avenge the fallen. An extremely powerful and efficient attack to use in a worst case scenario."
         ],
         "additional_requirements": [
-            "* An ally died this round"
+            "* An ally died this combat"
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* Damage: 4d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -657,8 +657,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "* An adjacent ally maneuvers one line forward or backward"
+            "* Damage: 2d6",
+            "* An adjacent ally Maneuvers Forward 1 or Backward 1"
         ]
     },
     {
@@ -672,10 +672,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Target is stunned",
-            "    * On Attack Roll of 11 - Target loses 10 poise"
+            "* Damage: 2d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Target is stunned",
+            "* On Attack Roll of 11 - Target loses 10 poise"
         ]
     },
     {
@@ -689,8 +689,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack deals an additional +2d6 damage if your target missed an attack on you this round"
+            "* Damage: 1d6",
+            "* This attack deals an additional +2d6 damage if your target missed an attack on you this round"
         ]
     },
     {
@@ -704,8 +704,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack deals an additional +2d6 damage if you lost at least 6 health this round"
+            "* Damage: 1d6",
+            "* This attack deals an additional +2d6 damage if you lost at least 6 health this round"
         ]
     },
     {
@@ -721,8 +721,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack hits all enemies in the frontline",
-            "  * The targets lose 5 poise"
+            "* This attack hits all enemies in the frontline",
+            "* The targets lose 5 poise"
         ]
     },
     {
@@ -736,8 +736,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 3d6",
-            "  * The target loses 15 poise"
+            "* Damage: 3d6",
+            "* The target loses 15 poise"
         ]
     },
     {
@@ -751,8 +751,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d6",
-            "  * This attack benefits from doubled effectiveness of any temporary to hit bonuses or damage bonuses that allies have granted you"
+            "* Damage: 1d6",
+            "* This attack benefits from doubled effectiveness of any temporary to hit bonuses or damage bonuses that allies have granted you"
         ]
     },
     {
@@ -766,12 +766,12 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d6",
+            "* Damage: 2d6",
             "* Roll a d6:",
-            "  * On a 1 - You lose 30 poise",
-            "  * On a 2, 3, or 4 - You lose 15 poise",
-            "  * On a 5 - You gain 10 poise",
-            "  * On a 6 - You gain 25 poise"
+            "* On a 1 - You lose 30 poise",
+            "* On a 2, 3, or 4 - You lose 15 poise",
+            "* On a 5 - You gain 10 poise",
+            "* On a 6 - You gain 25 poise"
         ]
     },
     {
@@ -787,10 +787,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 4d6",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage",
+            "* Damage: 4d6",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage",
             "* You gain an additional action during your next turn"
         ]
     }

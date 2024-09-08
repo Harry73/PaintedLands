@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d4"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d4"
         ]
     },
     {
@@ -25,8 +25,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -40,8 +40,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4"
         ]
     },
     {
@@ -55,10 +55,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -72,9 +72,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* +1 Accuracy Token",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -88,9 +88,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 3d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 3d4"
         ]
     },
     {
@@ -115,12 +115,12 @@
             "An attack from darkness. An early option for dealing damage from behind cover."
         ],
         "additional_requirements": [
-            "* You are hidden behind cover"
+            "* Must be Hidden"
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4"
         ]
     },
     {
@@ -134,11 +134,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Accuracy Modifier: +2 to hit",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* +2 Accuracy Tokens",
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -152,11 +152,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -169,7 +169,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack has +1 to hit"
+            "* +1 Accuracy Token"
         ]
     },
     {
@@ -182,7 +182,7 @@
         ],
         "additional_requirements": [],
         "effects": [
-            "* Your next attack has +1d4 damage"
+            "* Your next attack has +1D damage"
         ]
     },
     {
@@ -196,9 +196,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "* You maneuver 1 line forward"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* Maneuver Forward 1"
         ]
     },
     {
@@ -212,9 +212,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "* You maneuver 1 line backward"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Maneuver Backward 1"
         ]
     },
     {
@@ -228,10 +228,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "* You maneuver 2 lines backward",
-            "* You have +1 AC until the end of the round"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Maneuver Backward 2",
+            "* +1 Armor Token"
         ]
     },
     {
@@ -247,11 +247,11 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage and instead has 1 level of advantage",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 2d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage and instead has 1 level of advantage",
+            "* +1 Accuracy Token",
+            "* Damage: 2d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -265,9 +265,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * Target loses 5 poise"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* Target loses 5 poise"
         ]
     },
     {
@@ -296,15 +296,15 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "* Target ally may maneuver 1 line forward or backward"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Target ally may Maneuver Forward 1 or Backward 1"
         ]
     },
     {
         "order": "20",
         "name": "Big Game Hunting",
-        "poise_requirement": "None",
+        "poise_requirement": "60",
         "poise_cost": "-15",
         "description": [
             "An attack against the biggest threat. A powerful and reliable attack against high health targets."
@@ -312,11 +312,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * If the target has the highest current health amongst all characters in combat, this attack has +2d4 damage and has the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* If the target has the highest current health amongst all characters in combat, this attack has +2d4 damage and has the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -330,9 +330,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * Target has -1 to hit on their next attack if their target is another ally"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Target has -1 to hit on their next attack if their target is another ally"
         ]
     },
     {
@@ -346,9 +346,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack hits two enemies that are adjacent to each other",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* This attack hits two enemies that are adjacent to each other",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -362,9 +362,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack hits all enemies",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* This attack hits all enemies",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -378,9 +378,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * Target has -1D damage on their next attack"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* Target has -1D damage on their next attack"
         ]
     },
     {
@@ -394,9 +394,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * This attack has +2d4 damage if the target took 6 damage earlier this round"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* This attack has +2d4 damage if the target took at least 6 damage earlier this round"
         ]
     },
     {
@@ -412,11 +412,11 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Accuracy Modifier: +1 to hit",
-            "  * Damage: 1d4",
-            "  * Roll a d6:",
-            "    * On 6 - Target is stunned"
+            "* This attack ignores positional advantage and disadvantage",
+            "* +1 Accuracy Token",
+            "* Damage: 1d4",
+            "* Roll a d6:",
+            "* On 6 - Target is stunned"
         ]
     },
     {
@@ -430,9 +430,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack ignores cover provided by rubble",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* This attack ignores cover provided by rubble",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -446,9 +446,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * This attack has +2d4 damage if the target is in a special position"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* This attack has +2d4 damage if the target is in a special position"
         ]
     },
     {
@@ -464,10 +464,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 3d4",
-            "* You maneuver 1 line forward or backward"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 3d4",
+            "* Maneuver Forward 1 or Backward 1"
         ]
     },
     {
@@ -481,9 +481,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * This attack has +1d4 damage for every time it has been used in succession, up to a limit of +3d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* This attack has +1d4 damage for every time it has been used in succession, up to a limit of +3d4"
         ]
     },
     {
@@ -499,10 +499,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - Deal 2x damage"
         ]
     },
     {
@@ -516,11 +516,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * Until the end of the next round, the target grants attacks against it that have no critical strike chance the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* Until the end of the next round, the target grants attacks against it that have no critical strike chance the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -534,9 +534,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * This attack has +1 to hit and +2d4 damage if the target wields a shortblade"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* This attack has +1 to hit and +2d4 damage if the target wields a shortblade"
         ]
     },
     {
@@ -550,25 +550,25 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack selects a random enemy target",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4"
+            "* This attack selects a random enemy target",
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4"
         ]
     },
     {
         "order": "35",
         "name": "Serrated Shot",
         "poise_requirement": "None",
-        "poise_cost": "-15",
+        "poise_cost": "-20",
         "description": [
             "An attack that tears at flesh. An option for dealing damage over time."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * Target takes 1d4 damage at the end of each round until the end of the next round"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* Inflict Bleed 1d4"
         ]
     },
     {
@@ -582,9 +582,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * Target fails to maneuver this round"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Target fails to Maneuver this round"
         ]
     },
     {
@@ -598,11 +598,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * If this attack is made against a mount, it has +2d4 damage and has the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* If this attack is made against a mount, it has +2d4 damage and has the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -616,9 +616,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * Target fails to cast spells this round"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Target fails to cast spells this round"
         ]
     },
     {
@@ -632,9 +632,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack ignores AC granted by armor",
-            "  * Damage: 3d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* This attack ignores AC granted by armor",
+            "* Damage: 3d4"
         ]
     },
     {
@@ -650,10 +650,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -667,9 +667,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * This attack hits 1 target in each line",
-            "  * Damage: 2d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* This attack hits 1 target in each line",
+            "* Damage: 2d4"
         ]
     },
     {
@@ -683,9 +683,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 2d4",
-            "  * Target is pushed 1 line backward"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 2d4",
+            "* Target is pushed Backward 1"
         ]
     },
     {
@@ -699,11 +699,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 3d4",
-            "  * Target loses 15 poise",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage and target loses 5 poise"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 3d4",
+            "* Target loses 15 poise",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage and target loses 5 poise"
         ]
     },
     {
@@ -730,9 +730,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * If this attack's Attack Roll is lower than 7, it becomes 7",
-            "  * Damage: 1d4"
+            "* This attack ignores positional advantage and disadvantage",
+            "* If this attack's Attack Roll is lower than 7, it becomes 7",
+            "* Damage: 1d4"
         ]
     },
     {
@@ -746,9 +746,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 1d4",
-            "  * This attack has +2d4 damage if you are benefitting from a spell effect"
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 1d4",
+            "* This attack has +2d4 damage if you are benefitting from a spell effect"
         ]
     },
     {
@@ -762,8 +762,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores poise order and is instead executed at the beginning of the round",
-            "  * Damage: 1d4"
+            "* This attack ignores poise order and is instead executed at the beginning of the round",
+            "* Damage: 1d4"
         ]
     },
     {
@@ -777,8 +777,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores poise order and is instead executed at the end of the round",
-            "  * Damage: 3d4"
+            "* This attack ignores poise order and is instead executed at the end of the round",
+            "* Damage: 3d4"
         ]
     },
     {
@@ -794,8 +794,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * Damage: 1d4",
-            "  * This attack has +2 to hit and +2d4 damage if your target wields a bow, is in the backline, and has dealt at least 5 damage this round"
+            "* Damage: 1d4",
+            "* This attack has +2 to hit and +2d4 damage if your target wields a bow, is in the backline, and has dealt at least 4 damage this round"
         ]
     },
     {
@@ -811,11 +811,11 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores positional advantage and disadvantage",
-            "  * Damage: 4d4",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage",
+            "* This attack ignores positional advantage and disadvantage",
+            "* Damage: 4d4",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage",
             "* Your next attack that gains benefits based on additional requirements or certain conditions being fulfilled has those requirements and conditions automatically fulfilled. It also ignores its poise requirement."
         ]
     }

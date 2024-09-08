@@ -10,8 +10,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Accuracy Modifier: -3 to hit",
-            "  * Damage: 1d8"
+            "* Accuracy Modifier: -3 to hit",
+            "* Damage: 1d8"
         ]
     },
     {
@@ -25,8 +25,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -40,8 +40,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8"
         ]
     },
     {
@@ -55,10 +55,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -72,9 +72,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Target's next attack has -1 to hit"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Target's next attack has -1 to hit"
         ]
     },
     {
@@ -88,9 +88,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Target loses 10 poise"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Target loses 10 poise"
         ]
     },
     {
@@ -104,9 +104,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Target's next attack has -1D damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Target's next attack has -1D damage"
         ]
     },
     {
@@ -133,9 +133,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Target loses 20 poise"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Target loses 20 poise"
         ]
     },
     {
@@ -149,11 +149,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 4d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 4d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -167,9 +167,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * The target fails to maneuver forward this round",
-            "* You maneuver 1 line backward"
+            "* Damage: 1d8",
+            "* The target fails to Maneuver forward this round",
+            "* Maneuver Backward 1"
         ]
     },
     {
@@ -183,9 +183,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 2d8",
-            "  * The target fails to maneuver forward this round",
-            "* You maneuver 2 lines backward"
+            "* Damage: 2d8",
+            "* The target fails to maneuver forward this round",
+            "* Maneuver Backward 2"
         ]
     },
     {
@@ -199,9 +199,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "* You maneuver 1 line forward"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Maneuver Forward 1",
+            "* Damage: 1d8"
         ]
     },
     {
@@ -215,11 +215,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage",
-            "* You maneuver 2 lines forward"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Maneuver Forward 2",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -235,10 +235,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -254,10 +254,10 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -273,9 +273,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "* You maneuver 1 line forward or backward"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Maneuver Forward 1 or Backward 1"
         ]
     },
     {
@@ -291,16 +291,16 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "* Until the end of the round, an enemy damaged by this move that maneuvers backward for any reason allows you to maneuver forward the same number of lines if you choose to do so"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Until the end of the round, an enemy damaged by this move that Maneuvers backward for any reason allows you to Maneuver forward the same number of lines if you choose to do so. You can also follow the enemy into a Special Position if the capacity of the Special Position allows."
         ]
     },
     {
         "order": "19",
         "name": "Canter",
         "poise_requirement": "50",
-        "poise_cost": "-15",
+        "poise_cost": "-20",
         "description": [
             "An attack that evokes the fast and evasive moves of your mount. A more powerful version of Pinning Strike available to mounted polearm users."
         ],
@@ -309,9 +309,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * The target has -2 to hit for attacks directed at you until the end of the round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* The target has -2 to hit for attacks directed at you until the end of the round"
         ]
     },
     {
@@ -327,11 +327,11 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -347,8 +347,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with two levels of advantage",
-            "  * Damage: 2d8"
+            "* This attack is made with two levels of advantage",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -364,9 +364,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage",
-            "  * Damage: 1d8",
-            "  * Target's next attack has -1 to hit"
+            "* This attack is made with one level of advantage",
+            "* Damage: 1d8",
+            "* Target's next attack has -1 to hit"
         ]
     },
     {
@@ -380,9 +380,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * This attack also hits a second target in the line behind the initial target",
-            "  * Damage: 2d8"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* This attack also hits a second target in the line behind the initial target",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -398,8 +398,8 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
-            "  * Damage: 2d8"
+            "* This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -413,10 +413,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * Roll a d6:",
-            "    * On 6 - Target is stunned"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Roll a d6:",
+            "* On 6 - Target is stunned"
         ]
     },
     {
@@ -430,9 +430,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * If the target has the highest poise amongst all combatants, this attack deals +2d8 damage."
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* If the target has the highest poise amongst all combatants, this attack deals +2d8 damage."
         ]
     },
     {
@@ -446,9 +446,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * This attack deals +2d8 and inflicts -2 AC until the end of the next round if the target is wearing heavy armor"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* This attack deals +2d8 and inflicts -2 AC until the end of the next round if the target is wearing heavy armor"
         ]
     },
     {
@@ -462,9 +462,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Target has -1 AC until the end of the next round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Target has -1 AC until the end of the next round"
         ]
     },
     {
@@ -473,14 +473,14 @@
         "poise_requirement": "None",
         "poise_cost": "-25",
         "description": [
-            "An attack with a thrown spear. An AOE attack powered by the accuracy of the polearm"
+            "An attack with a thrown spear. An AOE attack powered by the accuracy of the polearm."
         ],
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * This attack hits one target in each line",
-            "  * Damage: 2d8"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* This attack hits one target in each line",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -496,11 +496,11 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage"
+            "* This attack ignores all positional disadvantage and instead has one level of advantage if your target is in the backline",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage"
         ]
     },
     {
@@ -516,9 +516,9 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Target cannot gain poise until the end of the next round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Target cannot gain poise until the end of the next round"
         ]
     },
     {
@@ -527,16 +527,16 @@
         "poise_requirement": "50",
         "poise_cost": "-20",
         "description": [
-            "An attack that invokes the power of the tundra. A good way to control enemy movement if you're in a tundra biome"
+            "An attack that invokes the power of the tundra. A good way to control enemy movement if you're in a tundra biome."
         ],
         "additional_requirements": [
             "* You are in a tundra biome"
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Target cannot maneuver or be maneuvered until the end of the next round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Target cannot Maneuver until the end of the next round"
         ]
     },
     {
@@ -550,9 +550,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * This attack has +1 to hit and +2d8 damage if the target wields a longblade"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* This attack has +1 to hit and +2d8 damage if the target wields a longblade"
         ]
     },
     {
@@ -566,9 +566,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * This attack ignores cover from hiding underwater",
-            "  * Damage: 2d8"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* This attack ignores cover from hiding in water",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -582,9 +582,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * This attack deals +2d8 damage if the target is benefitting from a spell effect. Additionally, it causes one spell effect on the target to immediately end (if there are multiple, one is randomly chosen)"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* This attack deals +2d8 damage if the target is benefitting from a spell effect. Additionally, it causes one spell effect on the target to immediately end (if there are multiple, one is randomly chosen)"
         ]
     },
     {
@@ -598,11 +598,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * If an enemy in the frontline died this round, this attack gains +2d8 damage and also gains the following:",
-            "    * Critical Strike:",
-            "      * On Attack Roll of 12 - Deal 2x damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* If an enemy in the frontline died this round, this attack gains +2d8 damage and also gains the following:",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Deal 2x damage"
         ]
     },
     {
@@ -616,7 +616,7 @@
         "additional_requirements": [],
         "effects": [
             "* Until the end of the round, you automatically attack any enemy that maneuvers forward, dealing 2d8 damage on a hit.",
-            "  * The damage from these attacks are increased by +2d8 if the maneuvering enemy is mounted"
+            "* The damage from these attacks is increased by +2d8 if the maneuvering enemy is mounted"
         ]
     },
     {
@@ -630,8 +630,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack ignores cover",
-            "  * Damage: 1d8"
+            "* This attack ignores cover",
+            "* Damage: 2d8"
         ]
     },
     {
@@ -645,9 +645,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 2d8",
-            "  * Target cannot benefit from healing until the end of the next round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 2d8",
+            "* Target cannot benefit from healing until the end of the next round"
         ]
     },
     {
@@ -661,10 +661,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 3d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 11 or 12 - The duration of negative effects on the target is extended by 1 round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 3d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 11 or 12 - The duration of negative effects on the target is extended by 1 round"
         ]
     },
     {
@@ -678,9 +678,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * Target loses 5 poise"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Target loses 5 poise"
         ]
     },
     {
@@ -694,9 +694,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * This attack has +1 to hit and +1d8 damage for every 25 poise the target has"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* This attack has +1 to hit and +1d8 damage for every 25 poise the target has"
         ]
     },
     {
@@ -710,11 +710,11 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Accuracy Modifier: -1 to hit",
-            "  * Damage: 1d8",
-            "  * Roll a d6:",
-            "    * The target loses poise equal to the rolled value times 5"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Accuracy Modifier: -1 to hit",
+            "* Damage: 1d8",
+            "* Roll a d6:",
+            "* The target loses poise equal to the rolled value times 5"
         ]
     },
     {
@@ -728,9 +728,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * Target's next attack has 1 level of disadvantage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Target's next attack has 1 level of disadvantage"
         ]
     },
     {
@@ -744,10 +744,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * This attack ignores AC granted by shields",
-            "  * Damage: 1d8",
-            "  * This attack has +2d8 damage if the target wields a shield"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* This attack cannot be blocked",
+            "* Damage: 1d8",
+            "* This attack has +2d8 damage if the target wields a shield"
         ]
     },
     {
@@ -761,9 +761,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * If the target used a move that provides a benefit to another enemy this round, this attack deals an additional +2d8 damage"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* If the target used a move that provides a benefit to another enemy this round, this attack deals an additional +2d8 damage"
         ]
     },
     {
@@ -777,9 +777,9 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * If the target is in the frontline, this attack has +1d8 damage and inflicts -1 AC and -1 to hit on the target until the end of the next round"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* If the target is in the frontline, this attack has +1d8 damage and inflicts -1 AC and -1 to hit on the target until the end of the next round"
         ]
     },
     {
@@ -793,8 +793,8 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * Damage: 1d8",
-            "  * If the target is stunned, this attack cannot miss and has +2d8 damage"
+            "* Damage: 1d8",
+            "* If the target is stunned, this attack cannot miss and has +2d8 damage"
         ]
     },
     {
@@ -808,10 +808,10 @@
         "additional_requirements": [],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 1d8",
-            "  * Target loses 5 poise",
-            "  * Until the end of the next round, the target has -1 to hit, -1D damage, and -1 AC"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 1d8",
+            "* Target loses 5 poise",
+            "* Until the end of the next round, the target has -1 to hit, -1D damage, and -1 AC"
         ]
     },
     {
@@ -827,13 +827,13 @@
         ],
         "effects": [
             "* Attack",
-            "  * This attack is made with one level of advantage unless you are in a special position",
-            "  * Damage: 4d8",
-            "  * Critical Strike:",
-            "    * On Attack Roll of 12 - Instant Kill",
-            "    * On Attack Roll of 11 - Deal 2x damage",
-            "  * Target loses poise equal to the damage roll of this move",
-            "  * Until the end of the round, all damage that the target takes causes them to lose an equal amount of poise"
+            "* This attack is made with one level of advantage unless you are in a special position",
+            "* Damage: 4d8",
+            "* Critical Strike:",
+            "* On Attack Roll of 12 - Instant Kill",
+            "* On Attack Roll of 11 - Deal 2x damage",
+            "* Target loses poise equal to the damage roll of this move",
+            "* Until the end of the round, all damage that the target takes causes them to lose an equal amount of poise"
         ]
     }
 ]
